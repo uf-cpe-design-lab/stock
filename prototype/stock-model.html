@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stock Model Prototype</title>
+<style>
+  :root { --bg:#fafaf9; --fg:#1c1917; --muted:#78716c; --line:#e7e5e4; --card:#fff; --accent:#2563eb; --accent-soft:#dbeafe; --warn:#b45309; --warn-soft:#fef3c7; --bad:#b91c1c; --bad-soft:#fee2e2; --ok:#15803d; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0c0a09; --fg:#f5f5f4; --muted:#a8a29e; --line:#292524; --card:#1c1917; --accent:#60a5fa; --accent-soft:#1e3a5f; --warn:#fbbf24; --warn-soft:#3b2f0b; --bad:#f87171; --bad-soft:#3f1414; --ok:#4ade80; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 system-ui, -apple-system, sans-serif; }
+  main { max-width:1180px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:22px; margin:0 0 4px; } h2 { font-size:16px; margin:0 0 10px; } h3 { font-size:13px; margin:14px 0 6px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  .banner { background:var(--warn-soft); color:var(--warn); padding:6px 10px; border-radius:6px; font-size:13px; display:inline-block; margin-bottom:10px; }
+  .intro { color:var(--muted); max-width:820px; }
+  .grid { display:grid; grid-template-columns: 1.35fr 1fr; gap:16px; margin-top:16px; }
+  @media (max-width: 900px) { .grid { grid-template-columns:1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px; overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; font-size:13px; }
+  th, td { text-align:left; padding:5px 8px; border-bottom:1px solid var(--line); white-space:nowrap; }
+  th { color:var(--muted); font-weight:600; }
+  td.num, th.num { text-align:right; font-variant-numeric: tabular-nums; }
+  tr.changed td { background:var(--accent-soft); }
+  .pill { font-size:11px; padding:1px 7px; border-radius:999px; border:1px solid var(--line); }
+  .muted { color:var(--muted); }
+  button { font:inherit; font-size:13px; padding:5px 10px; border-radius:6px; border:1px solid var(--line); background:var(--card); color:var(--fg); cursor:pointer; }
+  button:hover { border-color:var(--accent); }
+  button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  button:disabled { opacity:.4; cursor:default; }
+  select, input { font:inherit; font-size:13px; padding:4px 6px; border-radius:6px; border:1px solid var(--line); background:var(--card); color:var(--fg); }
+  input[type=number] { width:56px; }
+  .row { display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-bottom:6px; }
+  .tabs { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:10px; }
+  .tabs button.active { background:var(--accent-soft); border-color:var(--accent); }
+  .steps { list-style:none; padding:0; margin:8px 0 0; }
+  .steps li { margin:4px 0; }
+  .steps li.done button { opacity:.55; }
+  .msg { padding:8px 10px; border-radius:6px; margin:8px 0; font-size:13px; }
+  .msg.err { background:var(--bad-soft); color:var(--bad); }
+  .msg.warn { background:var(--warn-soft); color:var(--warn); }
+  .msg.ok { background:var(--accent-soft); }
+  .q { border-left:3px solid var(--warn); padding:2px 10px; margin:8px 0; font-size:13px; }
+  .log { font-size:12px; max-height:220px; overflow:auto; }
+  .log div { padding:2px 0; border-bottom:1px dashed var(--line); }
+</style>
+</head>
+<body>
+<main>
+  <div class="banner">PROTOTYPE: throwaway. Answers one question, then gets thrown away.</div>
+  <h1>Stock &amp; Loan model</h1>
+  <p class="intro"><strong>Question:</strong> do the count rules and states we settled for <em>Loans</em>, <em>Purchase Requests</em> and <em>Restock Needs</em> still make sense in awkward cases? Run a walkthrough on the right (each one starts fresh), or poke at things freely below. The tables update after every click, and the row that just changed is highlighted. Yellow-bordered notes mark an open question the model had to guess at.</p>
+
+  <div class="grid">
+    <div>
+      <div class="card" id="stock"></div>
+      <div class="card" id="loans" style="margin-top:16px"></div>
+      <div class="card" id="needs" style="margin-top:16px"></div>
+      <div class="card" id="prs" style="margin-top:16px"></div>
+    </div>
+    <div>
+      <div class="card" id="walk"></div>
+      <div class="card" id="free" style="margin-top:16px"></div>
+      <div class="card" style="margin-top:16px"><h2>What happened</h2><div class="log" id="log"></div></div>
+    </div>
+  </div>
+</main>
+
+<script>
+/* ===== Pure model: (state, action) => { state, error?, warning?, note? }. No DOM in here. ===== */
+const Lab = (() => {
+  const clone = (x) => JSON.parse(JSON.stringify(x));
+
+  function initialState() {
+    return {
+      items: {
+        rpi5:   { name: 'Raspberry Pi 5 8GB', kind: 'Loanable', owned: 5, reserved: 0, out: 0, damaged: 0, lost: 0, vendor: 'Digi-Key' },
+        lidar:  { name: 'RPLIDAR A1', kind: 'Loanable', owned: 1, reserved: 0, out: 0, damaged: 0, lost: 0, vendor: 'Adafruit' },
+        res10k: { name: '10kΩ ¼W resistor', kind: 'Consumable', counted: false, vendor: 'Digi-Key' },
+        scope:  { name: 'Oscilloscope', kind: 'Equipment', reserved: 0, vendor: null,
+                  units: [ { id: 'SCOPE-01', bench: 'Bench 1', status: 'At bench' }, { id: 'SCOPE-02', bench: 'Bench 2', status: 'At bench' } ] },
+      },
+      people: { Ana: { overdue: false }, Ben: { overdue: false }, Cara: { overdue: false } },
+      loans: [], needs: [], prs: [], seq: 1,
+    };
+  }
+
+  const available = (it) => it.kind === 'Equipment'
+    ? it.units.filter(u => u.status === 'At bench').length - it.reserved
+    : it.owned - it.reserved - it.out;
+
+  const outstanding = (l) => l.qty - l.returnedOk - l.returnedDamaged - l.returnedLost;
+
+  function refreshOverdue(s) {
+    for (const p of Object.keys(s.people)) s.people[p].overdue = s.loans.some(l => l.person === p && l.status === 'Out' && l.overdue);
+  }
+
+  function openNeed(s, itemId) { return s.needs.find(n => n.item === itemId && (n.status === 'Open' || n.status === 'Ordered')); }
+
+  function reduce(prev, a) {
+    const s = clone(prev);
+    const fail = (error) => ({ state: prev, error });
+    const done = (note, warning) => ({ state: s, note, warning, changed: a.type });
+
+    switch (a.type) {
+      case 'requestLoan': {
+        if (s.people[a.person].overdue) return fail(`${a.person} has an overdue Loan, so they can't request more until it's resolved.`);
+        const it = s.items[a.item];
+        if (it.kind === 'Consumable') return fail('Consumables are free to take; they are never loaned.');
+        const qty = it.kind === 'Equipment' ? 1 : a.qty;
+        const l = { id: 'L' + s.seq++, person: a.person, item: a.item, qty, unit: null, project: a.project || null, status: 'Requested',
+                    returnedOk: 0, returnedDamaged: 0, returnedLost: 0, overdue: false, viaPurchase: false };
+        s.loans.push(l); s.lastChanged = l.id;
+        return done(`${a.person} requested ${qty}× ${it.name}${l.project ? ' for ' + l.project : ''}.`);
+      }
+      case 'approveLoan': {
+        const l = s.loans.find(x => x.id === a.loan); const it = s.items[l.item];
+        if (l.status !== 'Requested') return fail(`Loan ${l.id} is ${l.status}, not waiting for approval.`);
+        if (available(it) < l.qty) return fail(`Only ${available(it)} ${it.name} available, so ${l.qty} can't be reserved. Approval reserves the count.`);
+        it.reserved += l.qty; l.status = 'Approved (reserved)'; s.lastChanged = l.id;
+        return done(`Lab Staff approved ${l.id}; ${l.qty} reserved for ${l.person}. Staff fulfill it next.`);
+      }
+      case 'denyLoan': {
+        const l = s.loans.find(x => x.id === a.loan);
+        if (l.status !== 'Requested') return fail(`Loan ${l.id} is ${l.status}; only requests can be denied.`);
+        l.status = 'Denied'; s.lastChanged = l.id; return done(`${l.id} denied.`);
+      }
+      case 'cancelReservation': {
+        const l = s.loans.find(x => x.id === a.loan); const it = s.items[l.item];
+        if (l.status !== 'Approved (reserved)') return fail(`Only approved, not-yet-fulfilled Loans can be cancelled (${l.id} is ${l.status}).`);
+        it.reserved -= l.qty; l.status = 'Cancelled'; s.lastChanged = l.id;
+        return done(`Staff cancelled ${l.id}; ${l.qty} went back to available. ${l.person} is notified.`);
+      }
+      case 'fulfill': {
+        const l = s.loans.find(x => x.id === a.loan); const it = s.items[l.item];
+        if (l.status !== 'Approved (reserved)') return fail(`${l.id} is ${l.status}; only approved Loans can be fulfilled.`);
+        it.reserved -= l.qty;
+        if (it.kind === 'Equipment') {
+          const u = it.units.find(u => u.status === 'At bench'); u.status = 'On Loan'; l.unit = u.id;
+        } else it.out += l.qty;
+        l.status = 'Out'; l.cubby = l.project ? l.project + ' cubby' : 'left out'; s.lastChanged = l.id;
+        return done(`Staff fulfilled ${l.id}${l.unit ? ' (chose ' + l.unit + ')' : ''}: ${l.project ? 'put in the ' + l.cubby : 'left out for ' + l.person}. It's Out from now.`);
+      }
+      case 'walkUp': {
+        const it = s.items[a.item];
+        if (it.kind === 'Consumable') return fail('Consumables are free to take; they are never loaned.');
+        const qty = it.kind === 'Equipment' ? 1 : a.qty;
+        if (available(it) < qty) return fail(`Only ${available(it)} ${it.name} available (the rest are reserved or out). A walk-up Loan can't take reserved units.`);
+        const warning = s.people[a.person].overdue ? `Warning shown to staff: ${a.person} has an overdue Loan. Staff went ahead anyway.` : null;
+        const l = { id: 'L' + s.seq++, person: a.person, item: a.item, qty, unit: null, project: a.project || null, status: 'Out',
+                    returnedOk: 0, returnedDamaged: 0, returnedLost: 0, overdue: false, viaPurchase: false };
+        if (it.kind === 'Equipment') { const u = it.units.find(u => u.status === 'At bench'); u.status = 'On Loan'; l.unit = u.id; }
+        else it.out += qty;
+        s.loans.push(l); s.lastChanged = l.id;
+        return done(`Staff created walk-up Loan ${l.id}: ${qty}× ${it.name} to ${a.person}.`, warning);
+      }
+      case 'passDueDate': {
+        const l = s.loans.find(x => x.id === a.loan);
+        if (l.status !== 'Out') return fail(`${l.id} isn't out.`);
+        l.overdue = true; refreshOverdue(s); s.lastChanged = l.id;
+        return done(`${l.id}'s due date passed. ${l.person} gets reminders and can't request new Loans.`);
+      }
+      case 'checkIn': {
+        const l = s.loans.find(x => x.id === a.loan); const it = s.items[l.item];
+        const ok = a.ok || 0, dmg = a.damaged || 0, lost = a.lost || 0, n = ok + dmg + lost;
+        if (l.status !== 'Out') return fail(`${l.id} isn't out.`);
+        if (n < 1 || n > outstanding(l)) return fail(`${l.id} has ${outstanding(l)} still out; you entered ${n}.`);
+        l.returnedOk += ok; l.returnedDamaged += dmg; l.returnedLost += lost;
+        if (it.kind === 'Equipment') {
+          const u = it.units.find(u => u.id === l.unit); u.status = ok ? 'At bench' : dmg ? 'Out of service' : 'Lost';
+        } else {
+          it.out -= n; it.owned -= dmg + lost; it.damaged += dmg; it.lost += lost;
+        }
+        if (outstanding(l) === 0) l.status = 'Returned';
+        refreshOverdue(s); s.lastChanged = l.id;
+        return done(`Checked in on ${l.id}: ${ok} returned, ${dmg} ${it.kind === 'Equipment' ? 'out of service' : 'written off (damaged)'}, ${lost} written off (lost). ${outstanding(l) ? outstanding(l) + ' still out.' : 'Loan closed.'}`);
+      }
+      case 'repair': {
+        const it = s.items[a.item];
+        if (it.kind !== 'Equipment') return fail('Written-off Loanables are gone; only Equipment units come back into service.');
+        const u = it.units.find(u => u.status === 'Out of service'); if (!u) return fail('No out-of-service unit.');
+        u.status = 'At bench'; s.lastChanged = a.item; return done(`Staff put ${u.id} back in service at ${u.bench} (by hand).`);
+      }
+      case 'report': {
+        const it = s.items[a.item];
+        if (it.kind === 'Equipment') return fail('Restock Reports are for Consumables and Loanables.');
+        let n = openNeed(s, a.item); let joined = !!n;
+        if (!n) { n = { id: 'N' + s.seq++, item: a.item, status: 'Open', reports: [] }; s.needs.push(n); }
+        n.reports.push({ by: a.by || 'anonymous', level: a.level });
+        s.lastChanged = n.id;
+        return done(joined
+          ? `${a.by || 'Someone'} reported "${a.level}". It joined the existing ${n.status} Restock Need ${n.id} (${n.reports.length} reports now).`
+          : `${a.by || 'Someone'} reported "${a.level}" with no sign-in. New Restock Need ${n.id} opened.`);
+      }
+      case 'dismissNeed': {
+        const n = s.needs.find(x => x.id === a.need); if (n.status !== 'Open') return fail('Only Open needs can be dismissed.');
+        n.status = 'Dismissed'; s.lastChanged = n.id; return done(`${n.id} dismissed.`);
+      }
+      case 'restocked': {
+        const n = s.needs.find(x => x.id === a.need); const it = s.items[n.item];
+        if (n.status !== 'Ordered' && n.status !== 'Open') return fail(`${n.id} is ${n.status}.`);
+        n.status = 'Restocked'; s.lastChanged = n.id;
+        if (it.kind === 'Loanable' || it.counted) { it.owned += a.count; return done(`${n.id} restocked; staff entered ${a.count} arrived, so ${it.name} owned is now ${it.owned}.`); }
+        return done(`${n.id} restocked (${it.name} isn't counted, so there's no count prompt).`);
+      }
+      case 'submitPR': {
+        if (!a.certified) return fail('The requester must first certify they checked the lab doesn\'t already have it.');
+        const pr = { id: 'PR' + s.seq++, requester: a.requester, project: a.project || null,
+                     lines: a.lines.map(x => ({ ...x, status: 'Submitted' })), status: 'Submitted' };
+        const dupes = pr.lines.filter(x => x.item).map(x => s.items[x.item].name);
+        s.prs.push(pr); s.lastChanged = pr.id;
+        return done(`${a.requester} submitted ${pr.id}${pr.project ? ' for ' + pr.project : ''} (${pr.lines.length} lines).`,
+          dupes.length ? `Duplicate check: the lab already stocks ${dupes.join(', ')}. Shown to the requester and the approver.` : null);
+      }
+      case 'decideLine': {
+        const pr = s.prs.find(x => x.id === a.pr); const ln = pr.lines[a.line];
+        if (ln.status !== 'Submitted') return fail(`That line is ${ln.status}.`);
+        ln.status = a.approve ? 'Approved' : 'Denied';
+        if (pr.lines.every(x => x.status !== 'Submitted')) pr.status = pr.lines.some(x => x.status === 'Approved') ? 'Approved' : 'Denied';
+        s.lastChanged = pr.id; return done(`${pr.id} line "${ln.name}" ${ln.status.toLowerCase()}.`);
+      }
+      case 'orderBatch': {
+        let lines = 0, needs = 0;
+        for (const pr of s.prs) for (const ln of pr.lines) if (ln.status === 'Approved' && ln.vendor === a.vendor) { ln.status = 'Ordered'; lines++; pr.status = 'Ordered'; }
+        for (const n of s.needs) if (n.status === 'Open' && s.items[n.item].vendor === a.vendor) { n.status = 'Ordered'; needs++; }
+        if (!lines && !needs) return fail(`Nothing on the ${a.vendor} Order List.`);
+        s.lastChanged = 'order'; return done(`${a.vendor} batch marked ordered: ${lines} Line Items and ${needs} Restock Needs moved to Ordered.`);
+      }
+      case 'receiveLine': {
+        const pr = s.prs.find(x => x.id === a.pr); const ln = pr.lines[a.line];
+        if (ln.status !== 'Ordered') return fail(`That line is ${ln.status}, not Ordered.`);
+        let itemId = ln.item;
+        if (!itemId) {
+          if (!a.createItem) return fail(`"${ln.name}" has no Catalog Item yet. Staff must create or link one before receiving, so the stock has somewhere to go.`);
+          itemId = a.createItem.id; s.items[itemId] = { name: ln.name, kind: a.createItem.kind, owned: 0, reserved: 0, out: 0, damaged: 0, lost: 0, vendor: ln.vendor };
+          ln.item = itemId;
+        }
+        const it = s.items[itemId]; it.owned += ln.qty; ln.status = 'Received';
+        let msg = `Received ${ln.qty}× ${it.name}; owned is now ${it.owned}.`;
+        if (pr.project) {
+          it.out += ln.qty;
+          const l = { id: 'L' + s.seq++, person: pr.requester, item: itemId, qty: ln.qty, unit: null, project: pr.project, status: 'Out',
+                      returnedOk: 0, returnedDamaged: 0, returnedLost: 0, overdue: false, viaPurchase: true };
+          s.loans.push(l); msg += ` It's a Project purchase, so Loan ${l.id} to ${pr.requester} was created automatically (no approval step) and counted as out.`;
+        }
+        if (pr.lines.every(x => ['Received', 'Denied'].includes(x.status))) pr.status = 'Closed';
+        s.lastChanged = pr.id; return done(msg);
+      }
+      default: return fail('Unknown action ' + a.type);
+    }
+  }
+  return { initialState, reduce, available, outstanding };
+})();
+</script>
+
+<script>
+/* ===== Throwaway page shell ===== */
+let S = Lab.initialState(); let lastMsg = null; const log = [];
+
+function run(action, label) {
+  const r = Lab.reduce(S, action);
+  S = r.state;
+  lastMsg = r.error ? { cls: 'err', text: 'Not allowed: ' + r.error } : { cls: 'ok', text: r.note, warn: r.warning };
+  log.unshift((r.error ? '✗ ' : '✓ ') + (label ? label + ' → ' : '') + (r.error || r.note) + (r.warning ? ' ⚠ ' + r.warning : ''));
+  render(); return !r.error;
+}
+
+const esc = (t) => String(t).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+const hl = (id) => S.lastChanged === id ? ' class="changed"' : '';
+
+function render() {
+  const items = Object.entries(S.items);
+  document.getElementById('stock').innerHTML = `<h2>Stock</h2>
+    <table><tr><th>Catalog Item</th><th>Kind</th><th class="num">Owned</th><th class="num">Available</th><th class="num">Reserved</th><th class="num">Out</th><th class="num">Written off: damaged</th><th class="num">Written off: lost</th></tr>
+    ${items.filter(([, it]) => it.kind !== 'Equipment').map(([id, it]) => it.kind === 'Consumable' && !it.counted
+      ? `<tr${hl(id)}><td>${esc(it.name)}</td><td>${it.kind}</td><td colspan="6" class="muted">not counted</td></tr>`
+      : `<tr${hl(id)}><td>${esc(it.name)}</td><td>${it.kind}</td><td class="num">${it.owned}</td><td class="num"><strong>${Lab.available(it)}</strong></td><td class="num">${it.reserved}</td><td class="num">${it.out}</td><td class="num">${it.damaged}</td><td class="num">${it.lost}</td></tr>`).join('')}
+    </table>
+    <h3>Equipment units</h3>
+    <table><tr><th>Unit</th><th>Home bench</th><th>Status</th></tr>
+    ${S.items.scope.units.map(u => `<tr><td>${u.id}</td><td>${u.bench}</td><td>${u.status}</td></tr>`).join('')}</table>
+    <p class="muted" style="font-size:12px;margin:6px 0 0">Oscilloscopes available: ${Lab.available(S.items.scope)} (reserved ${S.items.scope.reserved}). Available = owned − reserved − out. Written-off units leave "owned" for good. A damaged Equipment unit stays at its bench, Out of service.</p>`;
+
+  document.getElementById('loans').innerHTML = `<h2>Loans</h2>${S.loans.length ? `<table><tr><th>Loan</th><th>Who</th><th>What</th><th class="num">Qty</th><th>Project</th><th>Status</th><th>Returned</th></tr>
+    ${S.loans.map(l => `<tr${hl(l.id)}><td>${l.id}</td><td>${l.person}${S.people[l.person].overdue ? ' <span class="pill" style="color:var(--bad)">overdue</span>' : ''}</td><td>${esc(S.items[l.item].name)}${l.unit ? ' · ' + l.unit : ''}</td><td class="num">${l.qty}</td><td>${l.project || '<span class="muted">—</span>'}${l.viaPurchase ? ' <span class="pill">from purchase</span>' : ''}</td><td>${l.status}${l.overdue && l.status === 'Out' ? ' (overdue)' : ''}</td><td class="muted">${l.returnedOk} returned · ${l.returnedDamaged} damaged · ${l.returnedLost} lost${l.cubby ? ' · ' + l.cubby : ''}</td></tr>`).join('')}</table>` : '<p class="muted">No Loans yet.</p>'}`;
+
+  document.getElementById('needs').innerHTML = `<h2>Restock Needs</h2>${S.needs.length ? `<table><tr><th>Need</th><th>Item</th><th>Status</th><th>Reports</th></tr>
+    ${S.needs.map(n => `<tr${hl(n.id)}><td>${n.id}</td><td>${esc(S.items[n.item].name)}</td><td>${n.status}</td><td>${n.reports.map(r => `${r.by}: ${r.level}`).join(', ')}</td></tr>`).join('')}</table>` : '<p class="muted">No Restock Needs.</p>'}`;
+
+  document.getElementById('prs').innerHTML = `<h2>Purchase Requests</h2>${S.prs.length ? S.prs.map(pr => `<table style="margin-bottom:8px"><tr${hl(pr.id)}><th colspan="4">${pr.id} · ${pr.requester}${pr.project ? ' · ' + pr.project : ''} · ${pr.status}</th></tr>
+    ${pr.lines.map(ln => `<tr><td>${ln.qty}×</td><td>${esc(ln.name)}</td><td class="muted">${ln.vendor}${ln.item ? '' : ' · no Catalog Item'}</td><td>${ln.status}</td></tr>`).join('')}</table>`).join('') : '<p class="muted">No Purchase Requests.</p>'}`;
+
+  document.getElementById('log').innerHTML = log.map(t => `<div>${esc(t)}</div>`).join('') || '<span class="muted">Nothing yet.</span>';
+  renderWalk(); renderFree();
+}
+
+/* ----- Guided walkthroughs ----- */
+const L = (n) => 'L' + n; // ids are predictable because every walkthrough starts fresh
+const SCEN = [
+  { name: 'Reservations', text: 'Five Pis. Ana (Team Falcon) asks for 3 and Ben for 2, and both get approved, so nothing is left. Cara walks up wanting one. Ben then drops his request.',
+    watch: 'Watch "Available" vs "Reserved". Staff fulfill into the Team cubby; there\'s no pickup and no expiry.', q: null,
+    steps: [
+      ['Ana requests 3 Pis for Team Falcon', { type: 'requestLoan', person: 'Ana', item: 'rpi5', qty: 3, project: 'Team Falcon' }],
+      ['Ben requests 2 Pis', { type: 'requestLoan', person: 'Ben', item: 'rpi5', qty: 2 }],
+      ['Staff approve Ana', { type: 'approveLoan', loan: 'L1' }],
+      ['Staff approve Ben', { type: 'approveLoan', loan: 'L2' }],
+      ['Cara walks up for 1 Pi', { type: 'walkUp', person: 'Cara', item: 'rpi5', qty: 1 }],
+      ['Ben says he no longer needs them; staff cancel', { type: 'cancelReservation', loan: 'L2' }],
+      ['Staff fulfill Ana into the Team Falcon cubby', { type: 'fulfill', loan: 'L1' }],
+      ['Cara walks up again', { type: 'walkUp', person: 'Cara', item: 'rpi5', qty: 1 }],
+    ] },
+  { name: 'Partial return', text: 'Ana takes 3 Pis. Two come back, one of them broken. The third never comes back.',
+    watch: 'Each unit is Returned, Written off (damaged) or Written off (lost). Write-offs leave "owned" for good.', q: null,
+    steps: [
+      ['Staff lend Ana 3 Pis at the counter', { type: 'walkUp', person: 'Ana', item: 'rpi5', qty: 3 }],
+      ['Ana returns 2 (1 OK, 1 damaged)', { type: 'checkIn', loan: 'L1', ok: 1, damaged: 1 }],
+      ['Staff mark the last one lost', { type: 'checkIn', loan: 'L1', lost: 1 }],
+    ] },
+  { name: 'Purchase → Loan', text: 'Ana requests 2 Pis plus an IMU the lab has never stocked, for Team Falcon. Both get approved, ordered and received.',
+    watch: 'The Pis arrive already on Loan to Ana. The IMU has no Catalog Item, so it has nowhere to go.', q: null,
+    steps: [
+      ['Ana submits the request (certified)', { type: 'submitPR', requester: 'Ana', project: 'Team Falcon', certified: true,
+        lines: [ { name: 'Raspberry Pi 5 8GB', qty: 2, vendor: 'Digi-Key', item: 'rpi5' }, { name: 'BNO085 IMU', qty: 1, vendor: 'Digi-Key', item: null } ] }],
+      ['Approve the Pi line', { type: 'decideLine', pr: 'PR1', line: 0, approve: true }],
+      ['Approve the IMU line', { type: 'decideLine', pr: 'PR1', line: 1, approve: true }],
+      ['Mark the Digi-Key batch ordered', { type: 'orderBatch', vendor: 'Digi-Key' }],
+      ['Receive the Pis', { type: 'receiveLine', pr: 'PR1', line: 0 }],
+      ['Try to receive the IMU', { type: 'receiveLine', pr: 'PR1', line: 1 }],
+      ['Create a Catalog Item, then receive', { type: 'receiveLine', pr: 'PR1', line: 1, createItem: { id: 'imu', kind: 'Loanable' } }],
+    ] },
+  { name: 'Restock', text: 'Resistors run low and get ordered. Someone reports them again while the order is on its way. Later, Pis get restocked.',
+    watch: 'The late report joins the Ordered Need instead of opening a new one.', q: 'Should a report that arrives while the Need is Ordered join it (as here), or open a new Need?',
+    steps: [
+      ['Ana scans: Low', { type: 'report', item: 'res10k', level: 'Low', by: 'Ana' }],
+      ['Someone (no sign-in) scans: Out', { type: 'report', item: 'res10k', level: 'Out' }],
+      ['Mark the Digi-Key batch ordered', { type: 'orderBatch', vendor: 'Digi-Key' }],
+      ['Cara scans: Out', { type: 'report', item: 'res10k', level: 'Out', by: 'Cara' }],
+      ['Mark resistors restocked', { type: 'restocked', need: 'N1' }],
+      ['Ben scans: Low (a fresh Need)', { type: 'report', item: 'res10k', level: 'Low', by: 'Ben' }],
+      ['Staff flag Pis in a Scan Session', { type: 'report', item: 'rpi5', level: 'Low', by: 'Scan Session' }],
+      ['Pis restocked: 3 arrived', { type: 'restocked', need: 'N3', count: 3 }],
+    ] },
+  { name: 'Equipment', text: 'Ana borrows an oscilloscope. Staff pick the unit, and it comes back broken.',
+    watch: 'The unit\'s status moves from "At bench" to "On Loan" to "Out of service". It stays at its bench; staff move or restore it by hand.', q: null,
+    steps: [
+      ['Ana requests an oscilloscope', { type: 'requestLoan', person: 'Ana', item: 'scope' }],
+      ['Staff approve', { type: 'approveLoan', loan: 'L1' }],
+      ['Staff fulfill (they choose the unit)', { type: 'fulfill', loan: 'L1' }],
+      ['It comes back damaged', { type: 'checkIn', loan: 'L1', damaged: 1 }],
+      ['Later, staff put it back in service', { type: 'repair', item: 'scope' }],
+    ] },
+  { name: 'Overdue', text: 'Ben keeps the lidar past its due date, then wants a Pi.',
+    watch: 'Ben\'s own request is blocked, but staff can still lend to him with a warning. Returning clears the block.', q: null,
+    steps: [
+      ['Staff lend Ben the lidar', { type: 'walkUp', person: 'Ben', item: 'lidar', qty: 1 }],
+      ['The due date passes', { type: 'passDueDate', loan: 'L1' }],
+      ['Ben requests a Pi', { type: 'requestLoan', person: 'Ben', item: 'rpi5', qty: 1 }],
+      ['Staff lend Ben a Pi anyway', { type: 'walkUp', person: 'Ben', item: 'rpi5', qty: 1 }],
+      ['Ben returns the lidar', { type: 'checkIn', loan: 'L1', ok: 1 }],
+      ['Ben requests a Pi again', { type: 'requestLoan', person: 'Ben', item: 'rpi5', qty: 1 }],
+    ] },
+];
+let tab = 0, stepAt = 0;
+function startScenario(i) { tab = i; stepAt = 0; S = Lab.initialState(); log.length = 0; lastMsg = null; log.unshift('— Started walkthrough: ' + SCEN[i].name + ' —'); render(); }
+function doStep(i) { const [label, act] = SCEN[tab].steps[i]; run(act, label); stepAt = i + 1; render(); }
+function renderWalk() {
+  const sc = SCEN[tab];
+  document.getElementById('walk').innerHTML = `<h2>Walkthroughs</h2>
+    <div class="tabs">${SCEN.map((x, i) => `<button class="${i === tab ? 'active' : ''}" onclick="startScenario(${i})">${x.name}</button>`).join('')}</div>
+    <p style="margin:0">${sc.text}</p><p class="muted" style="margin:4px 0">${sc.watch}</p>
+    ${sc.q ? `<div class="q">❓ ${sc.q}</div>` : ''}
+    <ol class="steps">${sc.steps.map(([label], i) => `<li class="${i < stepAt ? 'done' : ''}"><button ${i === stepAt ? 'class="primary"' : ''} ${i !== stepAt ? 'disabled' : ''} onclick="doStep(${i})">${i + 1}. ${label}</button></li>`).join('')}</ol>
+    ${lastMsg ? `<div class="msg ${lastMsg.cls}">${esc(lastMsg.text)}</div>${lastMsg.warn ? `<div class="msg warn">⚠ ${esc(lastMsg.warn)}</div>` : ''}` : ''}`;
+}
+
+/* ----- Free play ----- */
+const val = (id) => document.getElementById(id)?.value;
+const num = (id) => parseInt(val(id) || '0', 10);
+function renderFree() {
+  const keep = {}; document.querySelectorAll('#free select, #free input').forEach(e => keep[e.id] = e.value);
+  const people = Object.keys(S.people).map(p => `<option>${p}</option>`).join('');
+  const items = Object.entries(S.items).map(([id, it]) => `<option value="${id}">${esc(it.name)}</option>`).join('');
+  const loans = S.loans.map(l => `<option value="${l.id}">${l.id} · ${l.person} · ${esc(S.items[l.item].name)} · ${l.status}</option>`).join('');
+  const needs = S.needs.map(n => `<option value="${n.id}">${n.id} · ${esc(S.items[n.item].name)} · ${n.status}</option>`).join('');
+  document.getElementById('free').innerHTML = `<h2>Free play</h2>
+    <div class="row">Person <select id="fp">${people}</select> Item <select id="fi">${items}</select> Qty <input id="fq" type="number" min="1" value="1"></div>
+    <div class="row"><button onclick="run({type:'requestLoan',person:val('fp'),item:val('fi'),qty:num('fq')})">Request Loan</button>
+      <button onclick="run({type:'walkUp',person:val('fp'),item:val('fi'),qty:num('fq')})">Staff walk-up Loan</button>
+      <button onclick="run({type:'report',item:val('fi'),level:'Low',by:val('fp')})">Report low</button>
+      <button onclick="run({type:'report',item:val('fi'),level:'Out',by:val('fp')})">Report out</button>
+      <button onclick="run({type:'repair',item:val('fi')})">Put Equipment back in service</button></div>
+    <h3>Loan</h3>
+    <div class="row"><select id="fl">${loans || '<option value="">—</option>'}</select></div>
+    <div class="row"><button onclick="run({type:'approveLoan',loan:val('fl')})">Approve</button><button onclick="run({type:'denyLoan',loan:val('fl')})">Deny</button>
+      <button onclick="run({type:'fulfill',loan:val('fl')})">Fulfill (cubby / leave out)</button><button onclick="run({type:'cancelReservation',loan:val('fl')})">Cancel reservation</button>
+      <button onclick="run({type:'passDueDate',loan:val('fl')})">Due date passes</button></div>
+    <div class="row">Check in: returned <input id="fok" type="number" min="0" value="1"> damaged <input id="fdm" type="number" min="0" value="0"> lost <input id="flo" type="number" min="0" value="0">
+      <button onclick="run({type:'checkIn',loan:val('fl'),ok:num('fok'),damaged:num('fdm'),lost:num('flo')})">Check in</button></div>
+    <h3>Restock Need</h3>
+    <div class="row"><select id="fn">${needs || '<option value="">—</option>'}</select> arrived <input id="fc" type="number" min="0" value="0">
+      <button onclick="run({type:'restocked',need:val('fn'),count:num('fc')})">Mark restocked</button><button onclick="run({type:'dismissNeed',need:val('fn')})">Dismiss</button>
+      <button onclick="run({type:'orderBatch',vendor:'Digi-Key'})">Order Digi-Key batch</button></div>
+    <div class="row"><button onclick="S=Lab.initialState();log.length=0;lastMsg=null;render()">Reset everything</button></div>
+    ${lastMsg && stepAt === 0 ? `<div class="msg ${lastMsg.cls}">${esc(lastMsg.text)}</div>` : ''}`;
+  Object.entries(keep).forEach(([id, v]) => { const e = document.getElementById(id); if (e && [...(e.options || [{ value: v }])].some(o => o.value === v)) e.value = v; });
+}
+startScenario(0);
+</script>
+</body>
+</html>
