@@ -1,0 +1,1202 @@
+category_id,parent_id,depth,name,path,product_count,is_leaf
+28,,0,"Anti-Static, ESD, Clean Room Products","Anti-Static, ESD, Clean Room Products",8913,False
+605,28,1,"Anti-Static, ESD Bags, Materials","Anti-Static, ESD, Clean Room Products > Anti-Static, ESD Bags, Materials",1279,True
+610,28,1,"Anti-Static, ESD Clothing","Anti-Static, ESD, Clean Room Products > Anti-Static, ESD Clothing",1278,True
+607,28,1,"Anti-Static, ESD Device Containers","Anti-Static, ESD, Clean Room Products > Anti-Static, ESD Device Containers",1142,True
+606,28,1,"Anti-Static, ESD Grounding Mats","Anti-Static, ESD, Clean Room Products > Anti-Static, ESD Grounding Mats",1439,True
+604,28,1,"Anti-Static, ESD Straps, Grounding Cords","Anti-Static, ESD, Clean Room Products > Anti-Static, ESD Straps, Grounding Cords",820,True
+603,28,1,"Anti-Static, ESD, Clean Room Accessories","Anti-Static, ESD, Clean Room Products > Anti-Static, ESD, Clean Room Accessories",1336,True
+611,28,1,Clean Room Swabs and Brushes,"Anti-Static, ESD, Clean Room Products > Clean Room Swabs and Brushes",341,True
+608,28,1,"Clean Room Treatments, Cleaners, Wipes","Anti-Static, ESD, Clean Room Products > Clean Room Treatments, Cleaners, Wipes",413,True
+609,28,1,Ionizer Equipment,"Anti-Static, ESD, Clean Room Products > Ionizer Equipment",345,True
+1016,28,1,"Modular ESD Desks, Workstations","Anti-Static, ESD, Clean Room Products > Modular ESD Desks, Workstations",109,True
+612,28,1,"Monitors, Testers","Anti-Static, ESD, Clean Room Products > Monitors, Testers",411,True
+10,,0,Audio Products,Audio Products,13032,False
+159,10,1,Accessories,Audio Products > Accessories,890,True
+157,10,1,"Alarms, Buzzers, and Sirens","Audio Products > Alarms, Buzzers, and Sirens",6897,True
+998,10,1,Amplifiers,Audio Products > Amplifiers,43,True
+160,10,1,"Buzzer Elements, Piezo Benders","Audio Products > Buzzer Elements, Piezo Benders",316,True
+158,10,1,Microphones,Audio Products > Microphones,1515,True
+156,10,1,Speakers,Audio Products > Speakers,3368,True
+1004,10,1,Vacuum Tubes,Audio Products > Vacuum Tubes,3,True
+6,,0,Battery Products,Battery Products,8975,False
+90,6,1,Batteries Non-Rechargeable (Primary),Battery Products > Batteries Non-Rechargeable (Primary),1804,True
+91,6,1,Batteries Rechargeable (Secondary),Battery Products > Batteries Rechargeable (Secondary),1891,True
+85,6,1,Battery Chargers,Battery Products > Battery Chargers,738,True
+86,6,1,"Battery Holders, Clips, Contacts","Battery Products > Battery Holders, Clips, Contacts",1782,True
+89,6,1,Battery Packs,Battery Products > Battery Packs,1953,True
+87,6,1,Battery Product Accessories,Battery Products > Battery Product Accessories,736,True
+88,6,1,Cigarette Lighter Assemblies,Battery Products > Cigarette Lighter Assemblies,71,True
+27,,0,"Boxes, Enclosures, Racks","Boxes, Enclosures, Racks",94373,False
+589,27,1,Backplanes,"Boxes, Enclosures, Racks > Backplanes",101,True
+595,27,1,Box Accessories,"Boxes, Enclosures, Racks > Box Accessories",11027,True
+596,27,1,Box Components,"Boxes, Enclosures, Racks > Box Components",5342,True
+594,27,1,Boxes,"Boxes, Enclosures, Racks > Boxes",33175,True
+960,27,1,Cams,"Boxes, Enclosures, Racks > Cams",71,True
+600,27,1,Card Guide Accessories,"Boxes, Enclosures, Racks > Card Guide Accessories",489,True
+591,27,1,Card Guides,"Boxes, Enclosures, Racks > Card Guides",748,True
+601,27,1,Card Rack Accessories,"Boxes, Enclosures, Racks > Card Rack Accessories",369,True
+588,27,1,Card Racks,"Boxes, Enclosures, Racks > Card Racks",255,True
+975,27,1,"Evaluation, Development Board Enclosures","Boxes, Enclosures, Racks > Evaluation, Development Board Enclosures",1081,True
+590,27,1,Handles,"Boxes, Enclosures, Racks > Handles",8040,True
+973,27,1,"Latches, Locks","Boxes, Enclosures, Racks > Latches, Locks",1491,True
+593,27,1,"Patchbay, Jack Panel Accessories","Boxes, Enclosures, Racks > Patchbay, Jack Panel Accessories",400,True
+592,27,1,"Patchbay, Jack Panels","Boxes, Enclosures, Racks > Patchbay, Jack Panels",2997,True
+598,27,1,Rack Accessories,"Boxes, Enclosures, Racks > Rack Accessories",13820,True
+599,27,1,Rack Components,"Boxes, Enclosures, Racks > Rack Components",6579,True
+602,27,1,Rack Thermal Management,"Boxes, Enclosures, Racks > Rack Thermal Management",3510,True
+597,27,1,Racks,"Boxes, Enclosures, Racks > Racks",4058,True
+1097,27,1,Storage,"Boxes, Enclosures, Racks > Storage",768,True
+1098,27,1,Storage Accessories,"Boxes, Enclosures, Racks > Storage Accessories",52,True
+21,,0,Cable Assemblies,Cable Assemblies,1042409,False
+2038,21,1,Barrel Connector Cables,Cable Assemblies > Barrel Connector Cables,2146,False
+463,2038,2,Barrel Audio Cables,Cable Assemblies > Barrel Connector Cables > Barrel Audio Cables,1211,True
+464,2038,2,Barrel Power Cables,Cable Assemblies > Barrel Connector Cables > Barrel Power Cables,935,True
+459,21,1,Between Series Adapter Cables,Cable Assemblies > Between Series Adapter Cables,6249,True
+448,21,1,Circular Cable Assemblies,Cable Assemblies > Circular Cable Assemblies,95362,True
+456,21,1,Coaxial Cables (RF),Cable Assemblies > Coaxial Cables (RF),545131,True
+466,21,1,"D-Shaped, Centronics Cables","Cable Assemblies > D-Shaped, Centronics Cables",469,True
+461,21,1,D-Sub Cables,Cable Assemblies > D-Sub Cables,15530,True
+449,21,1,Fiber Optic Cables,Cable Assemblies > Fiber Optic Cables,50879,True
+454,21,1,Firewire Cables (IEEE 1394),Cable Assemblies > Firewire Cables (IEEE 1394),153,True
+458,21,1,"Flat Flex Jumpers, Cables (FFC, FPC)","Cable Assemblies > Flat Flex Jumpers, Cables (FFC, FPC)",2073,True
+457,21,1,"Flat Flex Ribbon Jumpers, Cables","Cable Assemblies > Flat Flex Ribbon Jumpers, Cables",28867,True
+453,21,1,"Jumper Wires, Pre-Crimped Leads","Cable Assemblies > Jumper Wires, Pre-Crimped Leads",23208,True
+465,21,1,LGH Cables,Cable Assemblies > LGH Cables,404,True
+451,21,1,"Modular/Ethernet Cables (RJ45, RJ11)","Cable Assemblies > Modular/Ethernet Cables (RJ45, RJ11)",53205,True
+460,21,1,Pluggable Cables,Cable Assemblies > Pluggable Cables,17926,True
+452,21,1,"Power, Line Cables and Extension Cords","Cable Assemblies > Power, Line Cables and Extension Cords",6835,True
+450,21,1,Rectangular Cable Assemblies,Cable Assemblies > Rectangular Cable Assemblies,181345,True
+468,21,1,Smart Cables,Cable Assemblies > Smart Cables,137,True
+469,21,1,Solid State Lighting Cables,Cable Assemblies > Solid State Lighting Cables,290,True
+467,21,1,Specialized Cable Assemblies,Cable Assemblies > Specialized Cable Assemblies,2160,True
+455,21,1,USB Cables,Cable Assemblies > USB Cables,6761,True
+462,21,1,"Video Cables (DVI, HDMI)","Cable Assemblies > Video Cables (DVI, HDMI)",3279,True
+22,,0,"Cables, Wires","Cables, Wires",100706,False
+475,22,1,Coaxial Cables (RF),"Cables, Wires > Coaxial Cables (RF)",4044,True
+471,22,1,Fiber Optic Cables,"Cables, Wires > Fiber Optic Cables",4291,True
+476,22,1,"Flat Flex Cables (FFC, FPC)","Cables, Wires > Flat Flex Cables (FFC, FPC)",174,True
+472,22,1,Flat Ribbon Cables,"Cables, Wires > Flat Ribbon Cables",6617,True
+477,22,1,Modular - Flat Cable,"Cables, Wires > Modular - Flat Cable",292,True
+473,22,1,Multiple Conductor Cables,"Cables, Wires > Multiple Conductor Cables",55723,True
+474,22,1,Single Conductor Cables (Hook-Up Wire),"Cables, Wires > Single Conductor Cables (Hook-Up Wire)",29458,True
+470,22,1,Wire Wrap,"Cables, Wires > Wire Wrap",107,True
+23,,0,"Cables, Wires - Management","Cables, Wires - Management",142633,False
+479,23,1,Accessories,"Cables, Wires - Management > Accessories",24683,True
+491,23,1,"Bushings, Grommets","Cables, Wires - Management > Bushings, Grommets",4932,True
+492,23,1,Cable and Cord Grips,"Cables, Wires - Management > Cable and Cord Grips",20724,True
+490,23,1,Cable Supports and Fasteners,"Cables, Wires - Management > Cable Supports and Fasteners",7383,True
+488,23,1,Cable Ties - Holders and Mountings,"Cables, Wires - Management > Cable Ties - Holders and Mountings",1466,True
+482,23,1,Cable Ties and Zip Ties,"Cables, Wires - Management > Cable Ties and Zip Ties",7461,True
+485,23,1,"Cold Shrink Tape, Tubing","Cables, Wires - Management > Cold Shrink Tape, Tubing",127,True
+481,23,1,Fiber Optic Cables,"Cables, Wires - Management > Fiber Optic Cables",148,True
+494,23,1,"Grounding Braid, Straps","Cables, Wires - Management > Grounding Braid, Straps",952,True
+499,23,1,"Heat Shrink Boots, Caps","Cables, Wires - Management > Heat Shrink Boots, Caps",5941,True
+489,23,1,Heat Shrink Fabric,"Cables, Wires - Management > Heat Shrink Fabric",274,True
+483,23,1,Heat Shrink Tubing,"Cables, Wires - Management > Heat Shrink Tubing",15710,True
+497,23,1,Heat Shrink Wrap,"Cables, Wires - Management > Heat Shrink Wrap",20,True
+484,23,1,"Labels, Labeling","Cables, Wires - Management > Labels, Labeling",9416,True
+493,23,1,Markers,"Cables, Wires - Management > Markers",15391,True
+480,23,1,"Protective Hoses, Solid Tubing, Sleeving","Cables, Wires - Management > Protective Hoses, Solid Tubing, Sleeving",7440,True
+498,23,1,"Pulling, Support Grips","Cables, Wires - Management > Pulling, Support Grips",729,True
+478,23,1,Solder Sleeve,"Cables, Wires - Management > Solder Sleeve",2172,True
+495,23,1,"Spiral Wrap, Expandable Sleeving","Cables, Wires - Management > Spiral Wrap, Expandable Sleeving",3941,True
+496,23,1,"Splice Enclosures, Protection","Cables, Wires - Management > Splice Enclosures, Protection",296,True
+2039,23,1,"Wire Ducts, Raceways","Cables, Wires - Management > Wire Ducts, Raceways",13427,False
+487,2039,2,"Wire Duct, Raceway Accessories","Cables, Wires - Management > Wire Ducts, Raceways > Wire Duct, Raceway Accessories",7474,True
+957,2039,2,"Wire Duct, Raceway Covers","Cables, Wires - Management > Wire Ducts, Raceways > Wire Duct, Raceway Covers",885,True
+486,2039,2,"Wire Ducts, Raceways","Cables, Wires - Management > Wire Ducts, Raceways > Wire Ducts, Raceways",5068,True
+3,,0,Capacitors,Capacitors,1426722,False
+63,3,1,Accessories,Capacitors > Accessories,221,True
+69,3,1,Aluminum - Polymer Capacitors,Capacitors > Aluminum - Polymer Capacitors,10656,True
+58,3,1,Aluminum Electrolytic Capacitors,Capacitors > Aluminum Electrolytic Capacitors,115559,True
+57,3,1,"Capacitor Networks, Arrays","Capacitors > Capacitor Networks, Arrays",1370,True
+60,3,1,Ceramic Capacitors,Capacitors > Ceramic Capacitors,952240,True
+61,3,1,"Electric Double Layer Capacitors (EDLC), Supercapacitors","Capacitors > Electric Double Layer Capacitors (EDLC), Supercapacitors",3283,True
+62,3,1,Film Capacitors,Capacitors > Film Capacitors,163623,True
+64,3,1,Mica and PTFE Capacitors,Capacitors > Mica and PTFE Capacitors,9111,True
+2112,3,1,"Motor Start, Motor Run Capacitors (AC)","Capacitors > Motor Start, Motor Run Capacitors (AC)",3083,True
+67,3,1,Niobium Oxide Capacitors,Capacitors > Niobium Oxide Capacitors,214,True
+68,3,1,Silicon Capacitors,Capacitors > Silicon Capacitors,427,True
+70,3,1,Tantalum - Polymer Capacitors,Capacitors > Tantalum - Polymer Capacitors,13363,True
+59,3,1,Tantalum Capacitors,Capacitors > Tantalum Capacitors,147473,True
+66,3,1,Thin Film Capacitors,Capacitors > Thin Film Capacitors,4513,True
+65,3,1,"Trimmers, Variable Capacitors","Capacitors > Trimmers, Variable Capacitors",1586,True
+9,,0,Circuit Protection,Circuit Protection,314684,False
+143,9,1,Circuit Breakers,Circuit Protection > Circuit Breakers,82742,True
+145,9,1,Circuit Protection Accessories,Circuit Protection > Circuit Protection Accessories,13245,True
+155,9,1,"Electrical, Specialty Fuses","Circuit Protection > Electrical, Specialty Fuses",27956,True
+140,9,1,Fuseholders,Circuit Protection > Fuseholders,7009,True
+139,9,1,Fuses,Circuit Protection > Fuses,25120,True
+142,9,1,Gas Discharge Tube Arresters (GDT),Circuit Protection > Gas Discharge Tube Arresters (GDT),4654,True
+148,9,1,Ground Fault Circuit Interrupter (GFCI),Circuit Protection > Ground Fault Circuit Interrupter (GFCI),835,True
+151,9,1,Inrush Current Limiters (ICL),Circuit Protection > Inrush Current Limiters (ICL),2406,True
+154,9,1,Lighting Protection,Circuit Protection > Lighting Protection,78,True
+150,9,1,PTC Resettable Fuses,Circuit Protection > PTC Resettable Fuses,5311,True
+152,9,1,Surge Suppression ICs,Circuit Protection > Surge Suppression ICs,568,True
+146,9,1,Thermal Cutoffs (Thermal Fuses),Circuit Protection > Thermal Cutoffs (Thermal Fuses),413,True
+2040,9,1,Transient Voltage Suppressors (TVS),Circuit Protection > Transient Voltage Suppressors (TVS),118853,False
+149,2040,2,Mixed Technology,Circuit Protection > Transient Voltage Suppressors (TVS) > Mixed Technology,1196,True
+992,2040,2,Surge Protection Devices (SPDs),Circuit Protection > Transient Voltage Suppressors (TVS) > Surge Protection Devices (SPDs),11985,True
+147,2040,2,Thyristors,Circuit Protection > Transient Voltage Suppressors (TVS) > Thyristors,2507,True
+144,2040,2,TVS Diodes,Circuit Protection > Transient Voltage Suppressors (TVS) > TVS Diodes,103165,True
+141,9,1,"Varistors, MOVs","Circuit Protection > Varistors, MOVs",25494,True
+38,,0,Computer Equipment,Computer Equipment,12446,False
+881,38,1,Accessories,Computer Equipment > Accessories,5547,True
+888,38,1,Adapter Cards,Computer Equipment > Adapter Cards,1319,True
+882,38,1,"Adapters, Converters","Computer Equipment > Adapters, Converters",1484,True
+889,38,1,Brackets,Computer Equipment > Brackets,59,True
+898,38,1,"Cameras, Projectors","Computer Equipment > Cameras, Projectors",346,True
+893,38,1,"Computer Mouse, Trackballs","Computer Equipment > Computer Mouse, Trackballs",228,True
+899,38,1,"Desktop Joysticks, Simulation Products","Computer Equipment > Desktop Joysticks, Simulation Products",48,True
+885,38,1,Keyboards,Computer Equipment > Keyboards,581,True
+890,38,1,KVM Switches (Keyboard Video Mouse),Computer Equipment > KVM Switches (Keyboard Video Mouse),403,True
+896,38,1,KVM Switches (Keyboard Video Mouse) - Cables,Computer Equipment > KVM Switches (Keyboard Video Mouse) - Cables,170,True
+891,38,1,"Magnetic Strip, Smart Card Readers","Computer Equipment > Magnetic Strip, Smart Card Readers",54,True
+895,38,1,Memory Card Readers,Computer Equipment > Memory Card Readers,36,True
+900,38,1,Monitors,Computer Equipment > Monitors,605,True
+887,38,1,"Printers, Label Makers","Computer Equipment > Printers, Label Makers",471,True
+883,38,1,"Privacy Filters, Screen Protectors","Computer Equipment > Privacy Filters, Screen Protectors",599,True
+986,38,1,Server Acceleration Cards,Computer Equipment > Server Acceleration Cards,52,True
+1015,38,1,USB Hubs,Computer Equipment > USB Hubs,444,True
+20,,0,"Connectors, Interconnects","Connectors, Interconnects",5685048,False
+2026,20,1,AC Power Connectors,"Connectors, Interconnects > AC Power Connectors",16198,False
+1170,2026,2,Plugs and Receptacles,"Connectors, Interconnects > AC Power Connectors > Plugs and Receptacles",7742,True
+341,2026,2,Power Entry Connector Accessories,"Connectors, Interconnects > AC Power Connectors > Power Entry Connector Accessories",1328,True
+301,2026,2,Power Entry Modules (PEM),"Connectors, Interconnects > AC Power Connectors > Power Entry Modules (PEM)",7128,True
+2000,20,1,Backplane Connectors,"Connectors, Interconnects > Backplane Connectors",53341,False
+386,2000,2,ARINC,"Connectors, Interconnects > Backplane Connectors > ARINC",808,True
+430,2000,2,ARINC Inserts,"Connectors, Interconnects > Backplane Connectors > ARINC Inserts",788,True
+343,2000,2,Backplane Connector Accessories,"Connectors, Interconnects > Backplane Connectors > Backplane Connector Accessories",2251,True
+335,2000,2,Backplane Connector Contacts,"Connectors, Interconnects > Backplane Connectors > Backplane Connector Contacts",2353,True
+372,2000,2,Backplane Connector Housings,"Connectors, Interconnects > Backplane Connectors > Backplane Connector Housings",9338,True
+307,2000,2,DIN 41612,"Connectors, Interconnects > Backplane Connectors > DIN 41612",4691,True
+406,2000,2,"Hard Metric, Standard","Connectors, Interconnects > Backplane Connectors > Hard Metric, Standard",3653,True
+407,2000,2,Specialized,"Connectors, Interconnects > Backplane Connectors > Specialized",29459,True
+2001,20,1,Banana and Tip Connectors,"Connectors, Interconnects > Banana and Tip Connectors",2452,False
+351,2001,2,Banana and Tip Connector Accessories,"Connectors, Interconnects > Banana and Tip Connectors > Banana and Tip Connector Accessories",64,True
+381,2001,2,Banana and Tip Connector Adapters,"Connectors, Interconnects > Banana and Tip Connectors > Banana and Tip Connector Adapters",85,True
+310,2001,2,Binding Posts,"Connectors, Interconnects > Banana and Tip Connectors > Binding Posts",367,True
+302,2001,2,"Jacks, Plugs","Connectors, Interconnects > Banana and Tip Connectors > Jacks, Plugs",1936,True
+2002,20,1,Barrel Connectors,"Connectors, Interconnects > Barrel Connectors",4347,False
+434,2002,2,Audio Connectors,"Connectors, Interconnects > Barrel Connectors > Audio Connectors",2723,True
+348,2002,2,Barrel Connector Accessories,"Connectors, Interconnects > Barrel Connectors > Barrel Connector Accessories",169,True
+376,2002,2,Barrel Connector Adapters,"Connectors, Interconnects > Barrel Connectors > Barrel Connector Adapters",231,True
+435,2002,2,Power Connectors,"Connectors, Interconnects > Barrel Connectors > Power Connectors",1224,True
+373,20,1,Between Series Adapters,"Connectors, Interconnects > Between Series Adapters",900,True
+2003,20,1,Blade Type Power Connectors,"Connectors, Interconnects > Blade Type Power Connectors",4986,False
+360,2003,2,Blade Type Power Connector Accessories,"Connectors, Interconnects > Blade Type Power Connectors > Blade Type Power Connector Accessories",645,True
+357,2003,2,Blade Type Power Connector Assemblies,"Connectors, Interconnects > Blade Type Power Connectors > Blade Type Power Connector Assemblies",3082,True
+420,2003,2,Blade Type Power Connector Contacts,"Connectors, Interconnects > Blade Type Power Connectors > Blade Type Power Connector Contacts",420,True
+419,2003,2,Blade Type Power Connector Housings,"Connectors, Interconnects > Blade Type Power Connectors > Blade Type Power Connector Housings",839,True
+2004,20,1,Card Edge Connectors,"Connectors, Interconnects > Card Edge Connectors",614823,False
+349,2004,2,Card Edge Connector Accessories,"Connectors, Interconnects > Card Edge Connectors > Card Edge Connector Accessories",181,True
+429,2004,2,Card Edge Connector Adapters,"Connectors, Interconnects > Card Edge Connectors > Card Edge Connector Adapters",70,True
+345,2004,2,Card Edge Connector Contacts,"Connectors, Interconnects > Card Edge Connectors > Card Edge Connector Contacts",142,True
+354,2004,2,Card Edge Connector Housings,"Connectors, Interconnects > Card Edge Connectors > Card Edge Connector Housings",247,True
+303,2004,2,Edgeboard Connectors,"Connectors, Interconnects > Card Edge Connectors > Edgeboard Connectors",614183,True
+2005,20,1,Circular Connectors,"Connectors, Interconnects > Circular Connectors",3268695,False
+313,2005,2,Backshells and Cable Clamps,"Connectors, Interconnects > Circular Connectors > Backshells and Cable Clamps",66625,True
+329,2005,2,Circular Connector Accessories,"Connectors, Interconnects > Circular Connectors > Circular Connector Accessories",69586,True
+378,2005,2,Circular Connector Adapters,"Connectors, Interconnects > Circular Connectors > Circular Connector Adapters",48045,True
+436,2005,2,Circular Connector Assemblies,"Connectors, Interconnects > Circular Connectors > Circular Connector Assemblies",2416472,True
+330,2005,2,Circular Connector Contacts,"Connectors, Interconnects > Circular Connectors > Circular Connector Contacts",6916,True
+320,2005,2,Circular Connector Housings,"Connectors, Interconnects > Circular Connectors > Circular Connector Housings",661051,True
+2007,20,1,Coaxial Connectors (RF),"Connectors, Interconnects > Coaxial Connectors (RF)",45434,False
+342,2007,2,Coaxial Connector (RF) Accessories,"Connectors, Interconnects > Coaxial Connectors (RF) > Coaxial Connector (RF) Accessories",2844,True
+374,2007,2,Coaxial Connector (RF) Adapters,"Connectors, Interconnects > Coaxial Connectors (RF) > Coaxial Connector (RF) Adapters",9472,True
+437,2007,2,Coaxial Connector (RF) Assemblies,"Connectors, Interconnects > Coaxial Connectors (RF) > Coaxial Connector (RF) Assemblies",30887,True
+388,2007,2,Coaxial Connector (RF) Contacts,"Connectors, Interconnects > Coaxial Connectors (RF) > Coaxial Connector (RF) Contacts",408,True
+382,2007,2,Coaxial Connector (RF) Terminators,"Connectors, Interconnects > Coaxial Connectors (RF) > Coaxial Connector (RF) Terminators",1823,True
+2008,20,1,Contacts,"Connectors, Interconnects > Contacts",4435,False
+311,2008,2,"Contacts, Spring Loaded (Pogo Pins), and Pressure","Connectors, Interconnects > Contacts > Contacts, Spring Loaded (Pogo Pins), and Pressure",771,True
+416,2008,2,Leadframe,"Connectors, Interconnects > Contacts > Leadframe",61,True
+336,2008,2,Multi Purpose,"Connectors, Interconnects > Contacts > Multi Purpose",3603,True
+2011,20,1,"D-Sub, D-Shaped Connectors","Connectors, Interconnects > D-Sub, D-Shaped Connectors",320646,False
+438,2011,2,Centronics Connectors,"Connectors, Interconnects > D-Sub, D-Shaped Connectors > Centronics Connectors",2573,True
+439,2011,2,D-Sub Connector Assemblies,"Connectors, Interconnects > D-Sub, D-Shaped Connectors > D-Sub Connector Assemblies",265698,True
+339,2011,2,"D-Sub, D-Shaped Connector Accessories","Connectors, Interconnects > D-Sub, D-Shaped Connectors > D-Sub, D-Shaped Connector Accessories",2955,True
+375,2011,2,"D-Sub, D-Shaped Connector Adapters","Connectors, Interconnects > D-Sub, D-Shaped Connectors > D-Sub, D-Shaped Connector Adapters",1463,True
+355,2011,2,"D-Sub, D-Shaped Connector Backshells, Hoods","Connectors, Interconnects > D-Sub, D-Shaped Connectors > D-Sub, D-Shaped Connector Backshells, Hoods",8590,True
+332,2011,2,"D-Sub, D-Shaped Connector Contacts","Connectors, Interconnects > D-Sub, D-Shaped Connectors > D-Sub, D-Shaped Connector Contacts",2017,True
+321,2011,2,"D-Sub, D-Shaped Connector Housings","Connectors, Interconnects > D-Sub, D-Shaped Connectors > D-Sub, D-Shaped Connector Housings",35584,True
+447,2011,2,"D-Sub, D-Shaped Connector Jackscrews","Connectors, Interconnects > D-Sub, D-Shaped Connectors > D-Sub, D-Shaped Connector Jackscrews",1735,True
+383,2011,2,"D-Sub, D-Shaped Connector Terminators","Connectors, Interconnects > D-Sub, D-Shaped Connectors > D-Sub, D-Shaped Connector Terminators",31,True
+2013,20,1,"FFC, FPC (Flat Flexible) Connectors","Connectors, Interconnects > FFC, FPC (Flat Flexible) Connectors",17343,False
+350,2013,2,"FFC, FPC (Flat Flexible) Connector Accessories","Connectors, Interconnects > FFC, FPC (Flat Flexible) Connectors > FFC, FPC (Flat Flexible) Connector Accessories",62,True
+399,2013,2,"FFC, FPC (Flat Flexible) Connector Assemblies","Connectors, Interconnects > FFC, FPC (Flat Flexible) Connectors > FFC, FPC (Flat Flexible) Connector Assemblies",16734,True
+344,2013,2,"FFC, FPC (Flat Flexible) Connector Contacts","Connectors, Interconnects > FFC, FPC (Flat Flexible) Connectors > FFC, FPC (Flat Flexible) Connector Contacts",121,True
+390,2013,2,"FFC, FPC (Flat Flexible) Connector Housings","Connectors, Interconnects > FFC, FPC (Flat Flexible) Connectors > FFC, FPC (Flat Flexible) Connector Housings",426,True
+2014,20,1,Fiber Optic Connectors,"Connectors, Interconnects > Fiber Optic Connectors",6070,False
+389,2014,2,Fiber Optic Connector Accessories,"Connectors, Interconnects > Fiber Optic Connectors > Fiber Optic Connector Accessories",691,True
+387,2014,2,Fiber Optic Connector Adapters,"Connectors, Interconnects > Fiber Optic Connectors > Fiber Optic Connector Adapters",3141,True
+440,2014,2,Fiber Optic Connector Assemblies,"Connectors, Interconnects > Fiber Optic Connectors > Fiber Optic Connector Assemblies",1942,True
+445,2014,2,Fiber Optic Connector Housings,"Connectors, Interconnects > Fiber Optic Connectors > Fiber Optic Connector Housings",296,True
+2015,20,1,Heavy Duty Connectors,"Connectors, Interconnects > Heavy Duty Connectors",24398,False
+358,2015,2,Heavy Duty Connector Accessories,"Connectors, Interconnects > Heavy Duty Connectors > Heavy Duty Connector Accessories",3649,True
+327,2015,2,Heavy Duty Connector Assemblies,"Connectors, Interconnects > Heavy Duty Connectors > Heavy Duty Connector Assemblies",1023,True
+337,2015,2,Heavy Duty Connector Contacts,"Connectors, Interconnects > Heavy Duty Connectors > Heavy Duty Connector Contacts",1957,True
+362,2015,2,Heavy Duty Connector Frames,"Connectors, Interconnects > Heavy Duty Connectors > Heavy Duty Connector Frames",581,True
+363,2015,2,"Heavy Duty Connector Housings, Hoods, Bases","Connectors, Interconnects > Heavy Duty Connectors > Heavy Duty Connector Housings, Hoods, Bases",12952,True
+361,2015,2,"Heavy Duty Connector Inserts, Modules","Connectors, Interconnects > Heavy Duty Connectors > Heavy Duty Connector Inserts, Modules",4236,True
+2017,20,1,Keystone Connectors,"Connectors, Interconnects > Keystone Connectors",3659,False
+426,2017,2,Keystone Connector Accessories,"Connectors, Interconnects > Keystone Connectors > Keystone Connector Accessories",335,True
+427,2017,2,"Keystone Faceplates, Frames","Connectors, Interconnects > Keystone Connectors > Keystone Faceplates, Frames",1443,True
+428,2017,2,Keystone Inserts,"Connectors, Interconnects > Keystone Connectors > Keystone Inserts",1881,True
+441,20,1,LGH Connectors,"Connectors, Interconnects > LGH Connectors",338,True
+2021,20,1,Memory Connectors,"Connectors, Interconnects > Memory Connectors",3414,False
+413,2021,2,Inline Module Sockets,"Connectors, Interconnects > Memory Connectors > Inline Module Sockets",1398,True
+352,2021,2,Memory Connector Accessories,"Connectors, Interconnects > Memory Connectors > Memory Connector Accessories",129,True
+414,2021,2,PC Card Sockets,"Connectors, Interconnects > Memory Connectors > PC Card Sockets",1868,True
+421,2021,2,PC Cards - Adapters,"Connectors, Interconnects > Memory Connectors > PC Cards - Adapters",19,True
+2022,20,1,Modular/Ethernet Connectors,"Connectors, Interconnects > Modular/Ethernet Connectors",22390,False
+366,2022,2,"Modular/Ethernet Connector (RJ45, RJ11) Jacks","Connectors, Interconnects > Modular/Ethernet Connectors > Modular/Ethernet Connector (RJ45, RJ11) Jacks",11936,True
+367,2022,2,"Modular/Ethernet Connector (RJ45, RJ11) Plugs","Connectors, Interconnects > Modular/Ethernet Connectors > Modular/Ethernet Connector (RJ45, RJ11) Plugs",1698,True
+365,2022,2,Modular/Ethernet Connector (RJ45) Jacks With Magnetics,"Connectors, Interconnects > Modular/Ethernet Connectors > Modular/Ethernet Connector (RJ45) Jacks With Magnetics",6043,True
+442,2022,2,Modular/Ethernet Connector Accessories,"Connectors, Interconnects > Modular/Ethernet Connectors > Modular/Ethernet Connector Accessories",1171,True
+379,2022,2,Modular/Ethernet Connector Adapters,"Connectors, Interconnects > Modular/Ethernet Connectors > Modular/Ethernet Connector Adapters",1262,True
+403,2022,2,Modular/Ethernet Connector Plug Housings,"Connectors, Interconnects > Modular/Ethernet Connectors > Modular/Ethernet Connector Plug Housings",184,True
+418,2022,2,Modular/Ethernet Connector Wiring Blocks,"Connectors, Interconnects > Modular/Ethernet Connectors > Modular/Ethernet Connector Wiring Blocks",72,True
+417,2022,2,Modular/Ethernet Connector Wiring Blocks Accessories,"Connectors, Interconnects > Modular/Ethernet Connectors > Modular/Ethernet Connector Wiring Blocks Accessories",24,True
+2023,20,1,Photovoltaic (Solar Panel) Connectors,"Connectors, Interconnects > Photovoltaic (Solar Panel) Connectors",589,False
+424,2023,2,Photovoltaic (Solar Panel) Connector Accessories,"Connectors, Interconnects > Photovoltaic (Solar Panel) Connectors > Photovoltaic (Solar Panel) Connector Accessories",100,True
+326,2023,2,Photovoltaic (Solar Panel) Connector Assemblies,"Connectors, Interconnects > Photovoltaic (Solar Panel) Connectors > Photovoltaic (Solar Panel) Connector Assemblies",413,True
+423,2023,2,Photovoltaic (Solar Panel) Connector Contacts,"Connectors, Interconnects > Photovoltaic (Solar Panel) Connectors > Photovoltaic (Solar Panel) Connector Contacts",76,True
+2024,20,1,Pluggable Connectors,"Connectors, Interconnects > Pluggable Connectors",6473,False
+346,2024,2,Pluggable Connector Accessories,"Connectors, Interconnects > Pluggable Connectors > Pluggable Connector Accessories",534,True
+443,2024,2,Pluggable Connector Assemblies,"Connectors, Interconnects > Pluggable Connectors > Pluggable Connector Assemblies",5939,True
+2027,20,1,Rectangular Connectors,"Connectors, Interconnects > Rectangular Connectors",952538,False
+308,2027,2,"Arrays, Edge Type, Mezzanine (Board to Board)","Connectors, Interconnects > Rectangular Connectors > Arrays, Edge Type, Mezzanine (Board to Board)",32199,True
+317,2027,2,"Board In, Direct Wire to Board","Connectors, Interconnects > Rectangular Connectors > Board In, Direct Wire to Board",2017,True
+400,2027,2,"Board Spacers, Stackers (Board to Board)","Connectors, Interconnects > Rectangular Connectors > Board Spacers, Stackers (Board to Board)",303604,True
+316,2027,2,"Free Hanging, Panel Mount","Connectors, Interconnects > Rectangular Connectors > Free Hanging, Panel Mount",23127,True
+314,2027,2,"Headers, Male Pins","Connectors, Interconnects > Rectangular Connectors > Headers, Male Pins",345603,True
+315,2027,2,"Headers, Receptacles, Female Sockets","Connectors, Interconnects > Rectangular Connectors > Headers, Receptacles, Female Sockets",172347,True
+318,2027,2,"Headers, Specialty Pin","Connectors, Interconnects > Rectangular Connectors > Headers, Specialty Pin",8192,True
+340,2027,2,Rectangular Connector Accessories,"Connectors, Interconnects > Rectangular Connectors > Rectangular Connector Accessories",8442,True
+380,2027,2,Rectangular Connector Adapters,"Connectors, Interconnects > Rectangular Connectors > Rectangular Connector Adapters",392,True
+331,2027,2,Rectangular Connector Contacts,"Connectors, Interconnects > Rectangular Connectors > Rectangular Connector Contacts",8392,True
+319,2027,2,Rectangular Connector Housings,"Connectors, Interconnects > Rectangular Connectors > Rectangular Connector Housings",35677,True
+408,2027,2,Spring Loaded,"Connectors, Interconnects > Rectangular Connectors > Spring Loaded",12546,True
+304,20,1,"Shunts, Jumpers","Connectors, Interconnects > Shunts, Jumpers",1187,True
+2028,20,1,"Sockets for ICs, Transistors","Connectors, Interconnects > Sockets for ICs, Transistors",16929,False
+409,2028,2,IC Sockets,"Connectors, Interconnects > Sockets for ICs, Transistors > IC Sockets",16526,True
+410,2028,2,Socket Accessories,"Connectors, Interconnects > Sockets for ICs, Transistors > Socket Accessories",171,True
+411,2028,2,Socket Adapters,"Connectors, Interconnects > Sockets for ICs, Transistors > Socket Adapters",232,True
+2029,20,1,Solid State Lighting Connectors,"Connectors, Interconnects > Solid State Lighting Connectors",1911,False
+432,2029,2,Solid State Lighting Connector Accessories,"Connectors, Interconnects > Solid State Lighting Connectors > Solid State Lighting Connector Accessories",284,True
+444,2029,2,Solid State Lighting Connector Assemblies,"Connectors, Interconnects > Solid State Lighting Connectors > Solid State Lighting Connector Assemblies",1381,True
+446,2029,2,Solid State Lighting Connector Contacts,"Connectors, Interconnects > Solid State Lighting Connectors > Solid State Lighting Connector Contacts",246,True
+2030,20,1,Terminal Blocks,"Connectors, Interconnects > Terminal Blocks",234253,False
+368,2030,2,Barrier Blocks,"Connectors, Interconnects > Terminal Blocks > Barrier Blocks",41513,True
+369,2030,2,"Din Rail, Channel","Connectors, Interconnects > Terminal Blocks > Din Rail, Channel",11541,True
+370,2030,2,"Headers, Plugs and Sockets","Connectors, Interconnects > Terminal Blocks > Headers, Plugs and Sockets",91533,True
+431,2030,2,Interface Modules,"Connectors, Interconnects > Terminal Blocks > Interface Modules",1640,True
+425,2030,2,Panel Mount,"Connectors, Interconnects > Terminal Blocks > Panel Mount",1366,True
+412,2030,2,Power Distribution,"Connectors, Interconnects > Terminal Blocks > Power Distribution",1666,True
+433,2030,2,Specialized,"Connectors, Interconnects > Terminal Blocks > Specialized",3942,True
+2033,2030,2,Terminal Block Accessories,"Connectors, Interconnects > Terminal Blocks > Terminal Block Accessories",24051,False
+309,2033,3,Accessories,"Connectors, Interconnects > Terminal Blocks > Terminal Block Accessories > Accessories",8761,True
+385,2033,3,Terminal Block Jumpers,"Connectors, Interconnects > Terminal Blocks > Terminal Block Accessories > Terminal Block Jumpers",3773,True
+384,2033,3,Terminal Block Marker Strips,"Connectors, Interconnects > Terminal Blocks > Terminal Block Accessories > Terminal Block Marker Strips",8592,True
+364,2033,3,Terminal Block Wire Ferrules,"Connectors, Interconnects > Terminal Blocks > Terminal Block Accessories > Terminal Block Wire Ferrules",2925,True
+322,2030,2,Terminal Block Adapters,"Connectors, Interconnects > Terminal Blocks > Terminal Block Adapters",646,True
+338,2030,2,Terminal Block Contacts,"Connectors, Interconnects > Terminal Blocks > Terminal Block Contacts",71,True
+371,2030,2,Wire to Board,"Connectors, Interconnects > Terminal Blocks > Wire to Board",56284,True
+422,20,1,Terminal Junction Systems,"Connectors, Interconnects > Terminal Junction Systems",2908,True
+306,20,1,Terminal Strips and Turret Boards,"Connectors, Interconnects > Terminal Strips and Turret Boards",492,True
+2031,20,1,Terminals,"Connectors, Interconnects > Terminals",47383,False
+393,2031,2,"Barrel, Bullet Connectors","Connectors, Interconnects > Terminals > Barrel, Bullet Connectors",457,True
+402,2031,2,Foil Connectors,"Connectors, Interconnects > Terminals > Foil Connectors",34,True
+325,2031,2,"Housings, Boots","Connectors, Interconnects > Terminals > Housings, Boots",1805,True
+404,2031,2,Knife Connectors,"Connectors, Interconnects > Terminals > Knife Connectors",60,True
+395,2031,2,Lugs,"Connectors, Interconnects > Terminals > Lugs",6780,True
+353,2031,2,Magnetic Wire Connectors,"Connectors, Interconnects > Terminals > Magnetic Wire Connectors",902,True
+324,2031,2,"PC Pin Receptacles, Socket Connectors","Connectors, Interconnects > Terminals > PC Pin Receptacles, Socket Connectors",5651,True
+323,2031,2,"PC Pin, Single Post Connectors","Connectors, Interconnects > Terminals > PC Pin, Single Post Connectors",2942,True
+392,2031,2,"Quick Connects, Quick Disconnect Connectors","Connectors, Interconnects > Terminals > Quick Connects, Quick Disconnect Connectors",5966,True
+394,2031,2,Ring Connectors,"Connectors, Interconnects > Terminals > Ring Connectors",8869,True
+396,2031,2,Screw Connectors,"Connectors, Interconnects > Terminals > Screw Connectors",881,True
+401,2031,2,Solder Lug Connectors,"Connectors, Interconnects > Terminals > Solder Lug Connectors",74,True
+391,2031,2,Spade Connectors,"Connectors, Interconnects > Terminals > Spade Connectors",3204,True
+356,2031,2,Specialized Connectors,"Connectors, Interconnects > Terminals > Specialized Connectors",3464,True
+415,2031,2,Terminal Accessories,"Connectors, Interconnects > Terminals > Terminal Accessories",407,True
+405,2031,2,Terminal Adapters,"Connectors, Interconnects > Terminals > Terminal Adapters",100,True
+328,2031,2,Turret Connectors,"Connectors, Interconnects > Terminals > Turret Connectors",856,True
+397,2031,2,Wire Pin Connectors,"Connectors, Interconnects > Terminals > Wire Pin Connectors",324,True
+305,2031,2,Wire Splice Connectors,"Connectors, Interconnects > Terminals > Wire Splice Connectors",4416,True
+398,2031,2,Wire to Board Connectors,"Connectors, Interconnects > Terminals > Wire to Board Connectors",191,True
+2032,20,1,"USB, DVI, HDMI Connectors","Connectors, Interconnects > USB, DVI, HDMI Connectors",6516,False
+347,2032,2,"USB, DVI, HDMI Connector Accessories","Connectors, Interconnects > USB, DVI, HDMI Connectors > USB, DVI, HDMI Connector Accessories",355,True
+377,2032,2,"USB, DVI, HDMI Connector Adapters","Connectors, Interconnects > USB, DVI, HDMI Connectors > USB, DVI, HDMI Connector Adapters",1030,True
+312,2032,2,"USB, DVI, HDMI Connector Assemblies","Connectors, Interconnects > USB, DVI, HDMI Connectors > USB, DVI, HDMI Connector Assemblies",5131,True
+12,,0,"Crystals, Oscillators, Resonators","Crystals, Oscillators, Resonators",562189,False
+175,12,1,"Crystal, Oscillator, Resonator Accessories","Crystals, Oscillators, Resonators > Crystal, Oscillator, Resonator Accessories",162,True
+171,12,1,Crystals,"Crystals, Oscillators, Resonators > Crystals",117546,True
+172,12,1,Oscillators,"Crystals, Oscillators, Resonators > Oscillators",428447,True
+176,12,1,Pin Configurable/Selectable Oscillators,"Crystals, Oscillators, Resonators > Pin Configurable/Selectable Oscillators",4490,True
+169,12,1,Programmable Oscillators,"Crystals, Oscillators, Resonators > Programmable Oscillators",8981,True
+174,12,1,Resonators,"Crystals, Oscillators, Resonators > Resonators",1934,True
+170,12,1,Stand Alone Programmers,"Crystals, Oscillators, Resonators > Stand Alone Programmers",27,True
+173,12,1,VCOs (Voltage Controlled Oscillators),"Crystals, Oscillators, Resonators > VCOs (Voltage Controlled Oscillators)",602,True
+33,,0,"Development Boards, Kits, Programmers","Development Boards, Kits, Programmers",71664,False
+783,33,1,Accessories,"Development Boards, Kits, Programmers > Accessories",2926,True
+2041,33,1,Evaluation Boards,"Development Boards, Kits, Programmers > Evaluation Boards",60216,False
+791,2041,2,Analog to Digital Converters (ADCs) Evaluation Boards,"Development Boards, Kits, Programmers > Evaluation Boards > Analog to Digital Converters (ADCs) Evaluation Boards",1924,True
+789,2041,2,Audio Amplifier Evaluation Boards,"Development Boards, Kits, Programmers > Evaluation Boards > Audio Amplifier Evaluation Boards",760,True
+792,2041,2,DC/DC & AC/DC (Off-Line) SMPS Evaluation Boards,"Development Boards, Kits, Programmers > Evaluation Boards > DC/DC & AC/DC (Off-Line) SMPS Evaluation Boards",7495,True
+793,2041,2,Digital to Analog Converters (DACs) Evaluation Boards,"Development Boards, Kits, Programmers > Evaluation Boards > Digital to Analog Converters (DACs) Evaluation Boards",738,True
+796,2041,2,"Embedded Complex Logic (FPGA, CPLD) Evaluation Boards","Development Boards, Kits, Programmers > Evaluation Boards > Embedded Complex Logic (FPGA, CPLD) Evaluation Boards",1106,True
+786,2041,2,"Embedded MCU, DSP Evaluation Boards","Development Boards, Kits, Programmers > Evaluation Boards > Embedded MCU, DSP Evaluation Boards",5719,True
+787,2041,2,Evaluation and Demonstration Boards and Kits,"Development Boards, Kits, Programmers > Evaluation Boards > Evaluation and Demonstration Boards and Kits",15596,True
+797,2041,2,"Expansion Boards, Daughter Cards","Development Boards, Kits, Programmers > Evaluation Boards > Expansion Boards, Daughter Cards",8519,True
+794,2041,2,LED Driver Evaluation Boards,"Development Boards, Kits, Programmers > Evaluation Boards > LED Driver Evaluation Boards",1499,True
+790,2041,2,Linear Voltage Regulator Evaluation Boards,"Development Boards, Kits, Programmers > Evaluation Boards > Linear Voltage Regulator Evaluation Boards",972,True
+788,2041,2,Op Amp Evaluation Boards,"Development Boards, Kits, Programmers > Evaluation Boards > Op Amp Evaluation Boards",1084,True
+1165,2041,2,"RF, RFID, Wireless Evaluation Boards","Development Boards, Kits, Programmers > Evaluation Boards > RF, RFID, Wireless Evaluation Boards",10711,True
+795,2041,2,Sensor Evaluation Boards,"Development Boards, Kits, Programmers > Evaluation Boards > Sensor Evaluation Boards",4093,True
+799,33,1,"Programmers, Emulators, and Debuggers","Development Boards, Kits, Programmers > Programmers, Emulators, and Debuggers",1197,True
+798,33,1,"Programming Adapters, Sockets","Development Boards, Kits, Programmers > Programming Adapters, Sockets",1970,True
+784,33,1,"Software, Services","Development Boards, Kits, Programmers > Software, Services",5355,True
+19,,0,Discrete Semiconductor Products,Discrete Semiconductor Products,259466,False
+1164,19,1,"Current Regulation - Diodes, Transistors","Discrete Semiconductor Products > Current Regulation - Diodes, Transistors",1035,True
+2042,19,1,Diodes,Discrete Semiconductor Products > Diodes,148865,False
+299,2042,2,Bridge Rectifiers,Discrete Semiconductor Products > Diodes > Bridge Rectifiers,7337,True
+2085,2042,2,Rectifiers,Discrete Semiconductor Products > Diodes > Rectifiers,67301,False
+286,2085,3,Diode Arrays,Discrete Semiconductor Products > Diodes > Rectifiers > Diode Arrays,16136,True
+280,2085,3,Single Diodes,Discrete Semiconductor Products > Diodes > Rectifiers > Single Diodes,51165,True
+284,2042,2,RF Diodes,Discrete Semiconductor Products > Diodes > RF Diodes,2091,True
+282,2042,2,"Variable Capacitance (Varicaps, Varactors)","Discrete Semiconductor Products > Diodes > Variable Capacitance (Varicaps, Varactors)",887,True
+2086,2042,2,Zener,Discrete Semiconductor Products > Diodes > Zener,71249,False
+287,2086,3,Single Zener Diodes,Discrete Semiconductor Products > Diodes > Zener > Single Zener Diodes,68877,True
+295,2086,3,Zener Diode Arrays,Discrete Semiconductor Products > Diodes > Zener > Zener Diode Arrays,2372,True
+296,19,1,Power Driver Modules,Discrete Semiconductor Products > Power Driver Modules,1343,True
+2043,19,1,Thyristors,Discrete Semiconductor Products > Thyristors,10564,False
+274,2043,2,"DIACs, SIDACs","Discrete Semiconductor Products > Thyristors > DIACs, SIDACs",320,True
+281,2043,2,SCRs,Discrete Semiconductor Products > Thyristors > SCRs,4005,True
+298,2043,2,SCRs - Modules,Discrete Semiconductor Products > Thyristors > SCRs - Modules,2437,True
+300,2043,2,TRIACs,Discrete Semiconductor Products > Thyristors > TRIACs,3802,True
+2045,19,1,Transistors,Discrete Semiconductor Products > Transistors,97659,False
+2087,2045,2,Bipolar (BJT),Discrete Semiconductor Products > Transistors > Bipolar (BJT),31671,False
+283,2087,3,Bipolar RF Transistors,Discrete Semiconductor Products > Transistors > Bipolar (BJT) > Bipolar RF Transistors,1653,True
+277,2087,3,Bipolar Transistor Arrays,Discrete Semiconductor Products > Transistors > Bipolar (BJT) > Bipolar Transistor Arrays,2210,True
+293,2087,3,"Bipolar Transistor Arrays, Pre-Biased","Discrete Semiconductor Products > Transistors > Bipolar (BJT) > Bipolar Transistor Arrays, Pre-Biased",2197,True
+276,2087,3,Single Bipolar Transistors,Discrete Semiconductor Products > Transistors > Bipolar (BJT) > Single Bipolar Transistors,21192,True
+292,2087,3,"Single, Pre-Biased Bipolar Transistors","Discrete Semiconductor Products > Transistors > Bipolar (BJT) > Single, Pre-Biased Bipolar Transistors",4419,True
+2088,2045,2,"FETs, MOSFETs","Discrete Semiconductor Products > Transistors > FETs, MOSFETs",57184,False
+289,2088,3,"FET, MOSFET Arrays","Discrete Semiconductor Products > Transistors > FETs, MOSFETs > FET, MOSFET Arrays",6356,True
+285,2088,3,"RF FETs, MOSFETs","Discrete Semiconductor Products > Transistors > FETs, MOSFETs > RF FETs, MOSFETs",3557,True
+278,2088,3,"Single FETs, MOSFETs","Discrete Semiconductor Products > Transistors > FETs, MOSFETs > Single FETs, MOSFETs",47271,True
+2089,2045,2,IGBTs,Discrete Semiconductor Products > Transistors > IGBTs,7431,False
+291,2089,3,IGBT Arrays,Discrete Semiconductor Products > Transistors > IGBTs > IGBT Arrays,18,True
+297,2089,3,IGBT Modules,Discrete Semiconductor Products > Transistors > IGBTs > IGBT Modules,3066,True
+279,2089,3,Single IGBTs,Discrete Semiconductor Products > Transistors > IGBTs > Single IGBTs,4347,True
+288,2045,2,JFETs,Discrete Semiconductor Products > Transistors > JFETs,1138,True
+290,2045,2,Programmable Unijunction,Discrete Semiconductor Products > Transistors > Programmable Unijunction,41,True
+294,2045,2,Special Purpose,Discrete Semiconductor Products > Transistors > Special Purpose,194,True
+45,,0,Embedded Computers,Embedded Computers,11110,False
+931,45,1,Embedded Computer Accessories,Embedded Computers > Embedded Computer Accessories,1725,True
+932,45,1,Embedded Computer Interface Boards,Embedded Computers > Embedded Computer Interface Boards,816,True
+721,45,1,"Microcontroller, Microprocessor, FPGA, SOM Modules","Embedded Computers > Microcontroller, Microprocessor, FPGA, SOM Modules",2417,True
+933,45,1,Single Board Computers (SBCs),Embedded Computers > Single Board Computers (SBCs),6152,True
+16,,0,"Fans, Blowers, Thermal Management","Fans, Blowers, Thermal Management",181851,False
+2046,16,1,Fans,"Fans, Blowers, Thermal Management > Fans",29854,False
+216,2046,2,AC Fans,"Fans, Blowers, Thermal Management > Fans > AC Fans",4294,True
+217,2046,2,DC Brushless Fans (BLDC),"Fans, Blowers, Thermal Management > Fans > DC Brushless Fans (BLDC)",23606,True
+223,2046,2,Fan Accessories,"Fans, Blowers, Thermal Management > Fans > Fan Accessories",604,True
+974,2046,2,Fan Cords,"Fans, Blowers, Thermal Management > Fans > Fan Cords",273,True
+221,2046,2,"Finger Guards, Filters & Sleeves","Fans, Blowers, Thermal Management > Fans > Finger Guards, Filters & Sleeves",1077,True
+1005,16,1,"Heat Tape, Heat Blankets and Heaters","Fans, Blowers, Thermal Management > Heat Tape, Heat Blankets and Heaters",5757,True
+2047,16,1,Thermal,"Fans, Blowers, Thermal Management > Thermal",146240,False
+220,2047,2,"Adhesives, Epoxies, Greases, Pastes","Fans, Blowers, Thermal Management > Thermal > Adhesives, Epoxies, Greases, Pastes",927,True
+977,2047,2,"Heat Pipes, Vapor Chambers","Fans, Blowers, Thermal Management > Thermal > Heat Pipes, Vapor Chambers",1369,True
+219,2047,2,Heat Sinks,"Fans, Blowers, Thermal Management > Thermal > Heat Sinks",122855,True
+226,2047,2,"Liquid Cooling, Heating","Fans, Blowers, Thermal Management > Thermal > Liquid Cooling, Heating",381,True
+218,2047,2,"Pads, Sheets, Bridges","Fans, Blowers, Thermal Management > Thermal > Pads, Sheets, Bridges",17050,True
+224,2047,2,Thermal Accessories,"Fans, Blowers, Thermal Management > Thermal > Thermal Accessories",1809,True
+225,2047,2,"Thermoelectric, Peltier Assemblies","Fans, Blowers, Thermal Management > Thermal > Thermoelectric, Peltier Assemblies",183,True
+222,2047,2,"Thermoelectric, Peltier Modules","Fans, Blowers, Thermal Management > Thermal > Thermoelectric, Peltier Modules",1666,True
+36,,0,Filters,Filters,49491,False
+840,36,1,Cable Ferrites,Filters > Cable Ferrites,1973,True
+846,36,1,Ceramic Filters,Filters > Ceramic Filters,1268,True
+839,36,1,Common Mode Chokes,Filters > Common Mode Chokes,9796,True
+842,36,1,DSL Filters,Filters > DSL Filters,18,True
+835,36,1,"EMI/RFI Filters (LC, RC Networks)","Filters > EMI/RFI Filters (LC, RC Networks)",2311,True
+845,36,1,"Feed Through, Pass Through Capacitors","Filters > Feed Through, Pass Through Capacitors",4115,True
+841,36,1,Ferrite Beads and Chips,Filters > Ferrite Beads and Chips,8635,True
+843,36,1,Ferrite Disks and Plates,Filters > Ferrite Disks and Plates,137,True
+834,36,1,Filter Accessories,Filters > Filter Accessories,70,True
+837,36,1,Helical Filters,Filters > Helical Filters,6,True
+847,36,1,Monolithic Crystals,Filters > Monolithic Crystals,103,True
+838,36,1,Power Line Filter Modules,Filters > Power Line Filter Modules,14485,True
+844,36,1,RF Filters,Filters > RF Filters,4491,True
+836,36,1,SAW Filters,Filters > SAW Filters,2083,True
+26,,0,"Hardware, Fasteners, Accessories","Hardware, Fasteners, Accessories",280632,False
+569,26,1,Accessories,"Hardware, Fasteners, Accessories > Accessories",2407,True
+979,26,1,Bearings,"Hardware, Fasteners, Accessories > Bearings",257,True
+582,26,1,"Board Spacers, Standoffs","Hardware, Fasteners, Accessories > Board Spacers, Standoffs",20061,True
+578,26,1,Board Supports,"Hardware, Fasteners, Accessories > Board Supports",4860,True
+570,26,1,"Bumpers, Feet, Pads, Grips","Hardware, Fasteners, Accessories > Bumpers, Feet, Pads, Grips",5833,True
+954,26,1,"Clips, Hangers, Hooks","Hardware, Fasteners, Accessories > Clips, Hangers, Hooks",385,True
+585,26,1,"Component Insulators, Mounts, Spacers","Hardware, Fasteners, Accessories > Component Insulators, Mounts, Spacers",740,True
+580,26,1,DIN Rail Channel,"Hardware, Fasteners, Accessories > DIN Rail Channel",2141,True
+587,26,1,Foam,"Hardware, Fasteners, Accessories > Foam",537,True
+976,26,1,Hinges,"Hardware, Fasteners, Accessories > Hinges",872,True
+581,26,1,Hole Plugs - Tapered Caps,"Hardware, Fasteners, Accessories > Hole Plugs - Tapered Caps",4786,True
+568,26,1,Knobs,"Hardware, Fasteners, Accessories > Knobs",7191,True
+579,26,1,Miscellaneous,"Hardware, Fasteners, Accessories > Miscellaneous",6404,True
+574,26,1,Mounting Brackets,"Hardware, Fasteners, Accessories > Mounting Brackets",269,True
+573,26,1,Nuts,"Hardware, Fasteners, Accessories > Nuts",1329,True
+967,26,1,Reclosable Fasteners,"Hardware, Fasteners, Accessories > Reclosable Fasteners",1627,True
+576,26,1,Rivets,"Hardware, Fasteners, Accessories > Rivets",3018,True
+584,26,1,Screw Grommets,"Hardware, Fasteners, Accessories > Screw Grommets",499,True
+572,26,1,"Screws, Bolts","Hardware, Fasteners, Accessories > Screws, Bolts",26906,True
+1172,26,1,Seals - Cord Stock,"Hardware, Fasteners, Accessories > Seals - Cord Stock",1023,True
+1171,26,1,Seals - O-Rings,"Hardware, Fasteners, Accessories > Seals - O-Rings",6765,True
+3004,26,1,Springs,"Hardware, Fasteners, Accessories > Springs",14613,False
+1002,3004,2,"Compression, Tapered Springs","Hardware, Fasteners, Accessories > Springs > Compression, Tapered Springs",11381,True
+1006,3004,2,"Extension, Drawbar Springs","Hardware, Fasteners, Accessories > Springs > Extension, Drawbar Springs",2630,True
+1007,3004,2,Torsion Springs,"Hardware, Fasteners, Accessories > Springs > Torsion Springs",602,True
+586,26,1,"Structural, Motion Hardware","Hardware, Fasteners, Accessories > Structural, Motion Hardware",162354,True
+2048,26,1,Washers,"Hardware, Fasteners, Accessories > Washers",5755,False
+583,2048,2,"Bushing, Shoulder Washers","Hardware, Fasteners, Accessories > Washers > Bushing, Shoulder Washers",2401,True
+571,2048,2,Standard Washers,"Hardware, Fasteners, Accessories > Washers > Standard Washers",3354,True
+4,,0,"Inductors, Coils, Chokes","Inductors, Coils, Chokes",167001,False
+72,4,1,Adjustable Inductors,"Inductors, Coils, Chokes > Adjustable Inductors",267,True
+73,4,1,"Arrays, Signal Transformers","Inductors, Coils, Chokes > Arrays, Signal Transformers",1310,True
+74,4,1,Delay Lines,"Inductors, Coils, Chokes > Delay Lines",50,True
+71,4,1,Fixed Inductors,"Inductors, Coils, Chokes > Fixed Inductors",165114,True
+75,4,1,Wireless Charging Coils,"Inductors, Coils, Chokes > Wireless Charging Coils",260,True
+34,,0,Industrial Automation and Controls,Industrial Automation and Controls,336643,False
+1014,34,1,"Cable and Hose Carriers, Drag Chains","Industrial Automation and Controls > Cable and Hose Carriers, Drag Chains",206,True
+808,34,1,Cam Positioners,Industrial Automation and Controls > Cam Positioners,17,True
+2049,34,1,Controllers,Industrial Automation and Controls > Controllers,23047,False
+823,2049,2,Cable Assemblies,Industrial Automation and Controls > Controllers > Cable Assemblies,4441,True
+816,2049,2,Controller Accessories,Industrial Automation and Controls > Controllers > Controller Accessories,2205,True
+806,2049,2,"Liquid, Level","Industrial Automation and Controls > Controllers > Liquid, Level",587,True
+821,2049,2,PLC Modules,Industrial Automation and Controls > Controllers > PLC Modules,4471,True
+801,2049,2,"Process, Temperature","Industrial Automation and Controls > Controllers > Process, Temperature",9452,True
+814,2049,2,"Programmable (PLC, PAC)","Industrial Automation and Controls > Controllers > Programmable (PLC, PAC)",1891,True
+2115,34,1,Graphical/Numeric Displays,Industrial Automation and Controls > Graphical/Numeric Displays,25,True
+1013,34,1,Greases and Lubricants,Industrial Automation and Controls > Greases and Lubricants,141,True
+2050,34,1,Human Machine Interface (HMI),Industrial Automation and Controls > Human Machine Interface (HMI),2898,False
+947,2050,2,Human Machine Interface (HMI) Accessories,Industrial Automation and Controls > Human Machine Interface (HMI) > Human Machine Interface (HMI) Accessories,938,True
+946,2050,2,Machine Interface,Industrial Automation and Controls > Human Machine Interface (HMI) > Machine Interface,1960,True
+800,34,1,Industrial Automation Accessories,Industrial Automation and Controls > Industrial Automation Accessories,12685,True
+815,34,1,Industrial Equipment,Industrial Automation and Controls > Industrial Equipment,4588,True
+2051,34,1,Industrial Lighting,Industrial Automation and Controls > Industrial Lighting,3726,False
+1063,2051,2,Pick to Light,Industrial Automation and Controls > Industrial Lighting > Pick to Light,636,True
+1061,2051,2,Task Lighting,Industrial Automation and Controls > Industrial Lighting > Task Lighting,3090,True
+2052,34,1,Industrial Lighting Control,Industrial Automation and Controls > Industrial Lighting Control,281,False
+819,2052,2,Lighting Control,Industrial Automation and Controls > Industrial Lighting Control > Lighting Control,168,True
+820,2052,2,Lighting Control Accessories,Industrial Automation and Controls > Industrial Lighting Control > Lighting Control Accessories,113,True
+1062,34,1,Industrial PCs,Industrial Automation and Controls > Industrial PCs,6724,True
+2114,34,1,Industrial Sensors,Industrial Automation and Controls > Industrial Sensors,159590,False
+1070,2114,2,Color Sensors - Industrial,Industrial Automation and Controls > Industrial Sensors > Color Sensors - Industrial,120,True
+1075,2114,2,Encoders - Industrial,Industrial Automation and Controls > Industrial Sensors > Encoders - Industrial,14314,True
+1068,2114,2,"Float, Level Sensors - Industrial","Industrial Automation and Controls > Industrial Sensors > Float, Level Sensors - Industrial",3699,True
+1067,2114,2,Flow Sensors - Industrial,Industrial Automation and Controls > Industrial Sensors > Flow Sensors - Industrial,8132,True
+1066,2114,2,"Force Sensors, Load Cells - Industrial","Industrial Automation and Controls > Industrial Sensors > Force Sensors, Load Cells - Industrial",3332,True
+562,2114,2,"Photoelectric, Industrial","Industrial Automation and Controls > Industrial Sensors > Photoelectric, Industrial",23139,True
+1065,2114,2,"Position, Proximity, Speed (Modules) - Industrial","Industrial Automation and Controls > Industrial Sensors > Position, Proximity, Speed (Modules) - Industrial",439,True
+1069,2114,2,"Pressure Sensors, Transducers - Industrial","Industrial Automation and Controls > Industrial Sensors > Pressure Sensors, Transducers - Industrial",86392,True
+1074,2114,2,Proximity Sensors - Industrial,Industrial Automation and Controls > Industrial Sensors > Proximity Sensors - Industrial,15630,True
+1073,2114,2,Temperature Sensors - Analog and Digital Output - Industrial,Industrial Automation and Controls > Industrial Sensors > Temperature Sensors - Analog and Digital Output - Industrial,1920,True
+1072,2114,2,Thermostats - Mechanical - Industrial,Industrial Automation and Controls > Industrial Sensors > Thermostats - Mechanical - Industrial,2271,True
+1071,2114,2,"Ultrasonic Receivers, Transmitters - Industrial","Industrial Automation and Controls > Industrial Sensors > Ultrasonic Receivers, Transmitters - Industrial",202,True
+804,34,1,Industrial Specialized,Industrial Automation and Controls > Industrial Specialized,1007,True
+978,34,1,Liquid Filtration,Industrial Automation and Controls > Liquid Filtration,516,True
+2053,34,1,Machine Vision,Industrial Automation and Controls > Machine Vision,6776,False
+1059,2053,2,Bar Code Readers,Industrial Automation and Controls > Machine Vision > Bar Code Readers,1945,True
+828,2053,2,Camera/Sensors,Industrial Automation and Controls > Machine Vision > Camera/Sensors,3194,True
+827,2053,2,Control/Processing,Industrial Automation and Controls > Machine Vision > Control/Processing,199,True
+826,2053,2,Machine Vision Lighting,Industrial Automation and Controls > Machine Vision > Machine Vision Lighting,1438,True
+2054,34,1,Monitors,Industrial Automation and Controls > Monitors,2059,False
+807,2054,2,Current/Voltage Transducer Monitors,Industrial Automation and Controls > Monitors > Current/Voltage Transducer Monitors,789,True
+811,2054,2,Relay Output Monitors,Industrial Automation and Controls > Monitors > Relay Output Monitors,1270,True
+2055,34,1,Panel Meters,Industrial Automation and Controls > Panel Meters,5573,False
+802,2055,2,"Counters, Hour Meters","Industrial Automation and Controls > Panel Meters > Counters, Hour Meters",1638,True
+805,2055,2,Meters,Industrial Automation and Controls > Panel Meters > Meters,3283,True
+818,2055,2,Panel Meter Accessories,Industrial Automation and Controls > Panel Meters > Panel Meter Accessories,652,True
+2056,34,1,"Pneumatics, Hydraulics","Industrial Automation and Controls > Pneumatics, Hydraulics",83232,False
+1054,2056,2,Actuators/Cylinders,"Industrial Automation and Controls > Pneumatics, Hydraulics > Actuators/Cylinders",9964,True
+1052,2056,2,"Fittings, Couplings, and Distributors","Industrial Automation and Controls > Pneumatics, Hydraulics > Fittings, Couplings, and Distributors",13392,True
+1053,2056,2,Pneumatics Accessories,"Industrial Automation and Controls > Pneumatics, Hydraulics > Pneumatics Accessories",23315,True
+1051,2056,2,Preparation/Treatment,"Industrial Automation and Controls > Pneumatics, Hydraulics > Preparation/Treatment",3288,True
+1022,2056,2,"Shock Absorbers, Dampers","Industrial Automation and Controls > Pneumatics, Hydraulics > Shock Absorbers, Dampers",2107,True
+1021,2056,2,"Tubing, Hose, Piping","Industrial Automation and Controls > Pneumatics, Hydraulics > Tubing, Hose, Piping",4105,True
+809,2056,2,Valves and Control,"Industrial Automation and Controls > Pneumatics, Hydraulics > Valves and Control",27061,True
+810,34,1,Protection Relays & Systems,Industrial Automation and Controls > Protection Relays & Systems,1085,True
+2057,34,1,Robotics,Industrial Automation and Controls > Robotics,5061,False
+994,2057,2,End Effectors,Industrial Automation and Controls > Robotics > End Effectors,2002,True
+995,2057,2,Robotics Accessories,Industrial Automation and Controls > Robotics > Robotics Accessories,2361,True
+993,2057,2,Robots,Industrial Automation and Controls > Robotics > Robots,698,True
+1020,34,1,Signal Conditioners and Isolators,Industrial Automation and Controls > Signal Conditioners and Isolators,1945,True
+953,34,1,"Stackable Tower Lighting, Beacons, and Components","Industrial Automation and Controls > Stackable Tower Lighting, Beacons, and Components",10179,True
+952,34,1,Time Delay Relays,Industrial Automation and Controls > Time Delay Relays,5282,True
+49,,0,Industrial Supplies,Industrial Supplies,14264,False
+1076,49,1,Carts and Trucks,Industrial Supplies > Carts and Trucks,760,True
+2092,49,1,Dock and Warehouse,Industrial Supplies > Dock and Warehouse,207,False
+1099,2092,2,Air Curtain Doors,Industrial Supplies > Dock and Warehouse > Air Curtain Doors,88,True
+1096,2092,2,Dock Equipment,Industrial Supplies > Dock and Warehouse > Dock Equipment,87,True
+1078,2092,2,"Ladders, Steps, and Platforms","Industrial Supplies > Dock and Warehouse > Ladders, Steps, and Platforms",25,True
+1155,2092,2,Mirrors,Industrial Supplies > Dock and Warehouse > Mirrors,7,True
+2093,49,1,Electrical,Industrial Supplies > Electrical,330,False
+1079,2093,2,"Cords, Wires and Accessories","Industrial Supplies > Electrical > Cords, Wires and Accessories",11,True
+1080,2093,2,Generators,Industrial Supplies > Electrical > Generators,21,True
+1081,2093,2,Lighting,Industrial Supplies > Electrical > Lighting,281,True
+1082,2093,2,Lighting Accessories,Industrial Supplies > Electrical > Lighting Accessories,17,True
+2094,49,1,Fans,Industrial Supplies > Fans,232,False
+1100,2094,2,"Agricultural, Dock and Exhaust","Industrial Supplies > Fans > Agricultural, Dock and Exhaust",22,True
+1101,2094,2,Blowers and Floor Dryers,Industrial Supplies > Fans > Blowers and Floor Dryers,33,True
+1102,2094,2,Components - Motors,Industrial Supplies > Fans > Components - Motors,66,True
+1103,2094,2,Components and Accessories,Industrial Supplies > Fans > Components and Accessories,36,True
+1104,2094,2,"Household, Office and Pedestal Fans","Industrial Supplies > Fans > Household, Office and Pedestal Fans",75,True
+2095,49,1,HVAC,Industrial Supplies > HVAC,2418,False
+1105,2095,2,Air Conditioners,Industrial Supplies > HVAC > Air Conditioners,192,True
+1106,2095,2,Air Filters,Industrial Supplies > HVAC > Air Filters,290,True
+1108,2095,2,"Air Purifiers, Dehumidifiers and Humidifiers","Industrial Supplies > HVAC > Air Purifiers, Dehumidifiers and Humidifiers",16,True
+1109,2095,2,Heaters,Industrial Supplies > HVAC > Heaters,1818,True
+1124,2095,2,HVAC Parts and Accessories,Industrial Supplies > HVAC > HVAC Parts and Accessories,102,True
+1110,49,1,Janitorial and Maintenance Products,Industrial Supplies > Janitorial and Maintenance Products,3010,True
+2096,49,1,Maintenance,Industrial Supplies > Maintenance,507,False
+1083,2096,2,Air Compressor Tools and Accessories,Industrial Supplies > Maintenance > Air Compressor Tools and Accessories,382,True
+1084,2096,2,Air Compressors,Industrial Supplies > Maintenance > Air Compressors,2,True
+1085,2096,2,Magnets,Industrial Supplies > Maintenance > Magnets,5,True
+1086,2096,2,Mats,Industrial Supplies > Maintenance > Mats,118,True
+2097,49,1,Office Equipment,Industrial Supplies > Office Equipment,696,False
+1126,2097,2,"File Cabinets, Bookcases","Industrial Supplies > Office Equipment > File Cabinets, Bookcases",78,True
+1127,2097,2,Food Storage and Preparation,Industrial Supplies > Office Equipment > Food Storage and Preparation,49,True
+1128,2097,2,Office Supplies,Industrial Supplies > Office Equipment > Office Supplies,473,True
+1129,2097,2,Water Fountains and Refilling Stations,Industrial Supplies > Office Equipment > Water Fountains and Refilling Stations,96,True
+2098,49,1,Office Furniture,Industrial Supplies > Office Furniture,463,False
+1131,2098,2,Partitions and Accessories,Industrial Supplies > Office Furniture > Partitions and Accessories,388,True
+1132,2098,2,"Safes, Secure Storage","Industrial Supplies > Office Furniture > Safes, Secure Storage",44,True
+1133,2098,2,Tables,Industrial Supplies > Office Furniture > Tables,31,True
+2099,49,1,Outdoor Products,Industrial Supplies > Outdoor Products,1382,False
+1134,2099,2,"Bikes, Racks and Locks","Industrial Supplies > Outdoor Products > Bikes, Racks and Locks",26,True
+1135,2099,2,"Canopies, Shelters and Sheds","Industrial Supplies > Outdoor Products > Canopies, Shelters and Sheds",11,True
+1144,2099,2,"Cans, Trash Cans and Covers","Industrial Supplies > Outdoor Products > Cans, Trash Cans and Covers",101,True
+1136,2099,2,"Cold Weather Products, Clothing","Industrial Supplies > Outdoor Products > Cold Weather Products, Clothing",175,True
+1138,2099,2,Lawn Tools,Industrial Supplies > Outdoor Products > Lawn Tools,28,True
+1139,2099,2,Miscellaneous,Industrial Supplies > Outdoor Products > Miscellaneous,82,True
+1140,2099,2,"Mowers, Vacuums, Blowers and Cutters","Industrial Supplies > Outdoor Products > Mowers, Vacuums, Blowers and Cutters",8,True
+1141,2099,2,Outdoor Furniture,Industrial Supplies > Outdoor Products > Outdoor Furniture,131,True
+1142,2099,2,Parking Lot and Safety,Industrial Supplies > Outdoor Products > Parking Lot and Safety,810,True
+1143,2099,2,Snow and Ice Removal,Industrial Supplies > Outdoor Products > Snow and Ice Removal,10,True
+2100,49,1,"Product, Material Handling and Storage","Industrial Supplies > Product, Material Handling and Storage",2962,False
+1145,2100,2,Building/Construction Products,"Industrial Supplies > Product, Material Handling and Storage > Building/Construction Products",87,True
+1089,2100,2,Dollies,"Industrial Supplies > Product, Material Handling and Storage > Dollies",8,True
+1090,2100,2,Drum Accessories,"Industrial Supplies > Product, Material Handling and Storage > Drum Accessories",77,True
+1091,2100,2,"Drum Cradles, Lifts, Trucks","Industrial Supplies > Product, Material Handling and Storage > Drum Cradles, Lifts, Trucks",79,True
+1092,2100,2,Drum Pumps,"Industrial Supplies > Product, Material Handling and Storage > Drum Pumps",29,True
+1093,2100,2,"Drums, Pails","Industrial Supplies > Product, Material Handling and Storage > Drums, Pails",9,True
+1146,2100,2,Pallets,"Industrial Supplies > Product, Material Handling and Storage > Pallets",4,True
+1148,2100,2,"Rack, Shelving, Stand Accessories","Industrial Supplies > Product, Material Handling and Storage > Rack, Shelving, Stand Accessories",509,True
+1147,2100,2,"Racks, Shelving, Stands","Industrial Supplies > Product, Material Handling and Storage > Racks, Shelving, Stands",1707,True
+1149,2100,2,Storage Containers and Bins,"Industrial Supplies > Product, Material Handling and Storage > Storage Containers and Bins",453,True
+2101,49,1,Safety,Industrial Supplies > Safety,85,False
+1094,2101,2,"Absorbents, Trays and Cleaners","Industrial Supplies > Safety > Absorbents, Trays and Cleaners",33,True
+1095,2101,2,Exit Signs and Emergency Lights,Industrial Supplies > Safety > Exit Signs and Emergency Lights,21,True
+1150,2101,2,"Fuel, Oil and General Purpose Cans","Industrial Supplies > Safety > Fuel, Oil and General Purpose Cans",31,True
+1151,49,1,Shipping and Packaging Products,Industrial Supplies > Shipping and Packaging Products,421,True
+2103,49,1,Storage Containers & Bins,Industrial Supplies > Storage Containers & Bins,1,False
+1152,2103,2,Garage Storage and Organization,Industrial Supplies > Storage Containers & Bins > Garage Storage and Organization,1,True
+1153,49,1,Vehicle Maintenance and Customization Products,Industrial Supplies > Vehicle Maintenance and Customization Products,80,True
+2104,49,1,"Workstation, Office Furniture and Equipment","Industrial Supplies > Workstation, Office Furniture and Equipment",710,False
+1116,2104,2,Carts and Stands,"Industrial Supplies > Workstation, Office Furniture and Equipment > Carts and Stands",40,True
+1117,2104,2,Chairs and Stools,"Industrial Supplies > Workstation, Office Furniture and Equipment > Chairs and Stools",268,True
+1118,2104,2,Computer Workstations,"Industrial Supplies > Workstation, Office Furniture and Equipment > Computer Workstations",136,True
+1154,2104,2,"Hazardous Material, Safety Cabinets","Industrial Supplies > Workstation, Office Furniture and Equipment > Hazardous Material, Safety Cabinets",33,True
+1087,2104,2,"Lockers, Storage Cabinets and Accessories","Industrial Supplies > Workstation, Office Furniture and Equipment > Lockers, Storage Cabinets and Accessories",231,True
+1088,2104,2,Turntables,"Industrial Supplies > Workstation, Office Furniture and Equipment > Turntables",2,True
+32,,0,Integrated Circuits (ICs),Integrated Circuits (ICs),638759,False
+741,32,1,Audio Special Purpose,Integrated Circuits (ICs) > Audio Special Purpose,1400,True
+2006,32,1,Clock/Timing,Integrated Circuits (ICs) > Clock/Timing,23168,False
+763,2006,2,Application Specific Clock/Timing,Integrated Circuits (ICs) > Clock/Timing > Application Specific Clock/Timing,3068,True
+764,2006,2,"Clock Buffers, Drivers","Integrated Circuits (ICs) > Clock/Timing > Clock Buffers, Drivers",3925,True
+728,2006,2,"Clock Generators, PLLs, Frequency Synthesizers","Integrated Circuits (ICs) > Clock/Timing > Clock Generators, PLLs, Frequency Synthesizers",11532,True
+688,2006,2,Delay Lines,Integrated Circuits (ICs) > Clock/Timing > Delay Lines,655,True
+762,2006,2,IC Batteries,Integrated Circuits (ICs) > Clock/Timing > IC Batteries,4,True
+689,2006,2,Programmable Timers and Oscillators,Integrated Circuits (ICs) > Clock/Timing > Programmable Timers and Oscillators,1589,True
+690,2006,2,Real Time Clocks,Integrated Circuits (ICs) > Clock/Timing > Real Time Clocks,2395,True
+2009,32,1,Data Acquisition,Integrated Circuits (ICs) > Data Acquisition,33703,False
+768,2009,2,ADCs/DACs - Special Purpose,Integrated Circuits (ICs) > Data Acquisition > ADCs/DACs - Special Purpose,3009,True
+724,2009,2,Analog Front End (AFE),Integrated Circuits (ICs) > Data Acquisition > Analog Front End (AFE),759,True
+700,2009,2,Analog to Digital Converters (ADC),Integrated Circuits (ICs) > Data Acquisition > Analog to Digital Converters (ADC),14139,True
+717,2009,2,Digital Potentiometers,Integrated Circuits (ICs) > Data Acquisition > Digital Potentiometers,4242,True
+701,2009,2,Digital to Analog Converters (DAC),Integrated Circuits (ICs) > Data Acquisition > Digital to Analog Converters (DAC),10926,True
+775,2009,2,Touch Screen Controllers,Integrated Circuits (ICs) > Data Acquisition > Touch Screen Controllers,628,True
+2012,32,1,Embedded,Integrated Circuits (ICs) > Embedded,135889,False
+769,2012,2,Application Specific Microcontrollers,Integrated Circuits (ICs) > Embedded > Application Specific Microcontrollers,2127,True
+695,2012,2,CPLDs (Complex Programmable Logic Devices),Integrated Circuits (ICs) > Embedded > CPLDs (Complex Programmable Logic Devices),4056,True
+698,2012,2,DSP (Digital Signal Processors),Integrated Circuits (ICs) > Embedded > DSP (Digital Signal Processors),6642,True
+696,2012,2,FPGAs (Field Programmable Gate Array),Integrated Circuits (ICs) > Embedded > FPGAs (Field Programmable Gate Array),24970,True
+767,2012,2,FPGAs (Field Programmable Gate Array) with Microcontrollers,Integrated Circuits (ICs) > Embedded > FPGAs (Field Programmable Gate Array) with Microcontrollers,60,True
+685,2012,2,Microcontrollers,Integrated Circuits (ICs) > Embedded > Microcontrollers,81348,True
+694,2012,2,Microprocessors,Integrated Circuits (ICs) > Embedded > Microprocessors,9703,True
+719,2012,2,PLDs (Programmable Logic Device),Integrated Circuits (ICs) > Embedded > PLDs (Programmable Logic Device),1078,True
+777,2012,2,System On Chip (SoC),Integrated Circuits (ICs) > Embedded > System On Chip (SoC),5905,True
+2016,32,1,Interface,Integrated Circuits (ICs) > Interface,51128,False
+780,2016,2,Analog Switches - Special Purpose,Integrated Circuits (ICs) > Interface > Analog Switches - Special Purpose,2064,True
+747,2016,2,"Analog Switches, Multiplexers, Demultiplexers","Integrated Circuits (ICs) > Interface > Analog Switches, Multiplexers, Demultiplexers",10068,True
+716,2016,2,CODECS,Integrated Circuits (ICs) > Interface > CODECS,1551,True
+753,2016,2,Controllers,Integrated Circuits (ICs) > Interface > Controllers,3389,True
+723,2016,2,Direct Digital Synthesis (DDS),Integrated Circuits (ICs) > Interface > Direct Digital Synthesis (DDS),103,True
+710,2016,2,"Drivers, Receivers, Transceivers","Integrated Circuits (ICs) > Interface > Drivers, Receivers, Transceivers",17305,True
+709,2016,2,"Encoders, Decoders, Converters","Integrated Circuits (ICs) > Interface > Encoders, Decoders, Converters",510,True
+735,2016,2,Filters - Active,Integrated Circuits (ICs) > Interface > Filters - Active,955,True
+749,2016,2,I/O Expanders,Integrated Circuits (ICs) > Interface > I/O Expanders,1178,True
+722,2016,2,Modems - ICs and Modules,Integrated Circuits (ICs) > Interface > Modems - ICs and Modules,293,True
+778,2016,2,Modules,Integrated Circuits (ICs) > Interface > Modules,129,True
+752,2016,2,Sensor and Detector Interfaces,Integrated Circuits (ICs) > Interface > Sensor and Detector Interfaces,1256,True
+560,2016,2,"Sensor, Capacitive Touch","Integrated Circuits (ICs) > Interface > Sensor, Capacitive Touch",639,True
+755,2016,2,"Serializers, Deserializers","Integrated Circuits (ICs) > Interface > Serializers, Deserializers",1191,True
+756,2016,2,"Signal Buffers, Repeaters, Splitters","Integrated Circuits (ICs) > Interface > Signal Buffers, Repeaters, Splitters",1411,True
+683,2016,2,Signal Terminators,Integrated Circuits (ICs) > Interface > Signal Terminators,229,True
+754,2016,2,Specialized,Integrated Circuits (ICs) > Interface > Specialized,4429,True
+702,2016,2,Telecom,Integrated Circuits (ICs) > Interface > Telecom,3006,True
+714,2016,2,UARTs (Universal Asynchronous Receiver Transmitter),Integrated Circuits (ICs) > Interface > UARTs (Universal Asynchronous Receiver Transmitter),1026,True
+733,2016,2,Voice Record and Playback,Integrated Circuits (ICs) > Interface > Voice Record and Playback,396,True
+2018,32,1,Linear,Integrated Circuits (ICs) > Linear,45469,False
+2034,2018,2,Amplifiers,Integrated Circuits (ICs) > Linear > Amplifiers,38140,False
+742,2034,3,Audio Amplifiers,Integrated Circuits (ICs) > Linear > Amplifiers > Audio Amplifiers,4258,True
+687,2034,3,"Instrumentation, Op Amps, Buffer Amps","Integrated Circuits (ICs) > Linear > Amplifiers > Instrumentation, Op Amps, Buffer Amps",31007,True
+771,2034,3,Special Purpose Amplifiers,Integrated Circuits (ICs) > Linear > Amplifiers > Special Purpose Amplifiers,1411,True
+737,2034,3,Video Amps and Modules,Integrated Circuits (ICs) > Linear > Amplifiers > Video Amps and Modules,1464,True
+772,2018,2,"Analog Multipliers, Dividers","Integrated Circuits (ICs) > Linear > Analog Multipliers, Dividers",154,True
+692,2018,2,Comparators,Integrated Circuits (ICs) > Linear > Comparators,4946,True
+684,2018,2,Video Processing,Integrated Circuits (ICs) > Linear > Video Processing,2229,True
+2019,32,1,Logic,Integrated Circuits (ICs) > Logic,58779,False
+704,2019,2,"Buffers, Drivers, Receivers, Transceivers","Integrated Circuits (ICs) > Logic > Buffers, Drivers, Receivers, Transceivers",14145,True
+773,2019,2,Comparators,Integrated Circuits (ICs) > Logic > Comparators,378,True
+731,2019,2,"Counters, Dividers","Integrated Circuits (ICs) > Logic > Counters, Dividers",2590,True
+707,2019,2,FIFOs Memory,Integrated Circuits (ICs) > Logic > FIFOs Memory,2907,True
+706,2019,2,Flip Flops,Integrated Circuits (ICs) > Logic > Flip Flops,6255,True
+705,2019,2,Gates and Inverters,Integrated Circuits (ICs) > Logic > Gates and Inverters,13593,True
+770,2019,2,"Gates and Inverters - Multi-Function, Configurable","Integrated Circuits (ICs) > Logic > Gates and Inverters - Multi-Function, Configurable",1195,True
+708,2019,2,Latches,Integrated Circuits (ICs) > Logic > Latches,2892,True
+711,2019,2,Multivibrators,Integrated Circuits (ICs) > Logic > Multivibrators,731,True
+720,2019,2,Parity Generators and Checkers,Integrated Circuits (ICs) > Logic > Parity Generators and Checkers,175,True
+712,2019,2,Shift Registers,Integrated Circuits (ICs) > Logic > Shift Registers,2136,True
+743,2019,2,"Signal Switches, Multiplexers, Decoders","Integrated Circuits (ICs) > Logic > Signal Switches, Multiplexers, Decoders",7240,True
+703,2019,2,Specialty Logic,Integrated Circuits (ICs) > Logic > Specialty Logic,1257,True
+732,2019,2,"Translators, Level Shifters","Integrated Circuits (ICs) > Logic > Translators, Level Shifters",2806,True
+725,2019,2,Universal Bus Functions,Integrated Circuits (ICs) > Logic > Universal Bus Functions,479,True
+2020,32,1,Memory,Integrated Circuits (ICs) > Memory,58356,False
+766,2020,2,Batteries,Integrated Circuits (ICs) > Memory > Batteries,12,True
+697,2020,2,Configuration PROMs for FPGAs,Integrated Circuits (ICs) > Memory > Configuration PROMs for FPGAs,582,True
+736,2020,2,Controllers,Integrated Circuits (ICs) > Memory > Controllers,298,True
+774,2020,2,Memory,Integrated Circuits (ICs) > Memory > Memory,57464,True
+2025,32,1,Power Management (PMIC),Integrated Circuits (ICs) > Power Management (PMIC),228304,False
+748,2025,2,"AC DC Converters, Offline Switchers","Integrated Circuits (ICs) > Power Management (PMIC) > AC DC Converters, Offline Switchers",4456,True
+781,2025,2,Battery Chargers,Integrated Circuits (ICs) > Power Management (PMIC) > Battery Chargers,3437,True
+713,2025,2,Battery Management,Integrated Circuits (ICs) > Power Management (PMIC) > Battery Management,4743,True
+734,2025,2,Current Regulation/Management,Integrated Circuits (ICs) > Power Management (PMIC) > Current Regulation/Management,1459,True
+715,2025,2,DC DC Switching Controllers,Integrated Circuits (ICs) > Power Management (PMIC) > DC DC Switching Controllers,10702,True
+729,2025,2,Display Drivers,Integrated Circuits (ICs) > Power Management (PMIC) > Display Drivers,1158,True
+765,2025,2,Energy Metering,Integrated Circuits (ICs) > Power Management (PMIC) > Energy Metering,489,True
+746,2025,2,"Full, Half-Bridge (H Bridge) Drivers","Integrated Circuits (ICs) > Power Management (PMIC) > Full, Half-Bridge (H Bridge) Drivers",1324,True
+730,2025,2,Gate Drivers,Integrated Circuits (ICs) > Power Management (PMIC) > Gate Drivers,6400,True
+718,2025,2,Hot Swap Controllers,Integrated Circuits (ICs) > Power Management (PMIC) > Hot Swap Controllers,2041,True
+681,2025,2,Laser Drivers,Integrated Circuits (ICs) > Power Management (PMIC) > Laser Drivers,394,True
+745,2025,2,LED Drivers,Integrated Circuits (ICs) > Power Management (PMIC) > LED Drivers,6972,True
+751,2025,2,"Lighting, Ballast Controllers","Integrated Circuits (ICs) > Power Management (PMIC) > Lighting, Ballast Controllers",453,True
+744,2025,2,"Motor Drivers, Controllers","Integrated Circuits (ICs) > Power Management (PMIC) > Motor Drivers, Controllers",5032,True
+758,2025,2,"OR Controllers, Ideal Diodes","Integrated Circuits (ICs) > Power Management (PMIC) > OR Controllers, Ideal Diodes",656,True
+759,2025,2,PFC (Power Factor Correction),Integrated Circuits (ICs) > Power Management (PMIC) > PFC (Power Factor Correction),1038,True
+726,2025,2,"Power Distribution Switches, Load Drivers","Integrated Circuits (ICs) > Power Management (PMIC) > Power Distribution Switches, Load Drivers",7420,True
+761,2025,2,Power Management - Specialized,Integrated Circuits (ICs) > Power Management (PMIC) > Power Management - Specialized,8233,True
+779,2025,2,Power Over Ethernet (PoE) Controllers,Integrated Circuits (ICs) > Power Management (PMIC) > Power Over Ethernet (PoE) Controllers,827,True
+760,2025,2,"Power Supply Controllers, Monitors","Integrated Circuits (ICs) > Power Management (PMIC) > Power Supply Controllers, Monitors",2003,True
+740,2025,2,RMS to DC Converters,Integrated Circuits (ICs) > Power Management (PMIC) > RMS to DC Converters,132,True
+750,2025,2,Special Purpose Regulators,Integrated Circuits (ICs) > Power Management (PMIC) > Special Purpose Regulators,4690,True
+691,2025,2,Supervisors,Integrated Circuits (ICs) > Power Management (PMIC) > Supervisors,38841,True
+738,2025,2,Thermal Management,Integrated Circuits (ICs) > Power Management (PMIC) > Thermal Management,474,True
+727,2025,2,V/F and F/V Converters,Integrated Circuits (ICs) > Power Management (PMIC) > V/F and F/V Converters,134,True
+693,2025,2,Voltage Reference,Integrated Circuits (ICs) > Power Management (PMIC) > Voltage Reference,8464,True
+739,2025,2,Voltage Regulators - DC DC Switching Regulators,Integrated Circuits (ICs) > Power Management (PMIC) > Voltage Regulators - DC DC Switching Regulators,37060,True
+776,2025,2,Voltage Regulators - Linear + Switching,Integrated Circuits (ICs) > Power Management (PMIC) > Voltage Regulators - Linear + Switching,1509,True
+757,2025,2,Voltage Regulators - Linear Regulator Controllers,Integrated Circuits (ICs) > Power Management (PMIC) > Voltage Regulators - Linear Regulator Controllers,414,True
+699,2025,2,"Voltage Regulators - Linear, Low Drop Out (LDO) Regulators","Integrated Circuits (ICs) > Power Management (PMIC) > Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",67349,True
+686,32,1,Specialized ICs,Integrated Circuits (ICs) > Specialized ICs,2563,True
+39,,0,Isolators,Isolators,29441,False
+901,39,1,Digital Isolators,Isolators > Digital Isolators,5857,True
+906,39,1,Isolators - Gate Drivers,Isolators > Isolators - Gate Drivers,4495,True
+2058,39,1,"Optocouplers, Optoisolators","Isolators > Optocouplers, Optoisolators",18968,False
+902,2058,2,Logic Output Optoisolators,"Isolators > Optocouplers, Optoisolators > Logic Output Optoisolators",2590,True
+903,2058,2,"Transistor, Photovoltaic Output Optoisolators","Isolators > Optocouplers, Optoisolators > Transistor, Photovoltaic Output Optoisolators",14381,True
+904,2058,2,"Triac, SCR Output Optoisolators","Isolators > Optocouplers, Optoisolators > Triac, SCR Output Optoisolators",1997,True
+905,39,1,Special Purpose Isolators,Isolators > Special Purpose Isolators,121,True
+31,,0,Kits,Kits,19820,False
+669,31,1,Audio Kits,Kits > Audio Kits,45,True
+663,31,1,Cable Assembly Kits,Kits > Cable Assembly Kits,38,True
+665,31,1,"Cables, Wires - Single Conductors Kits","Kits > Cables, Wires - Single Conductors Kits",14461,True
+651,31,1,Capacitor Kits,Kits > Capacitor Kits,803,True
+666,31,1,Circuit Protection - Assortment Kits,Kits > Circuit Protection - Assortment Kits,93,True
+667,31,1,Circuit Protection Kits - Fuse,Kits > Circuit Protection Kits - Fuse,229,True
+668,31,1,Circuit Protection Kits - TVS Diodes,Kits > Circuit Protection Kits - TVS Diodes,31,True
+660,31,1,Connector Adapter Kits,Kits > Connector Adapter Kits,49,True
+656,31,1,Connector Kits,Kits > Connector Kits,882,True
+671,31,1,Crystal Kits,Kits > Crystal Kits,7,True
+659,31,1,Discrete Assortment Kits,Kits > Discrete Assortment Kits,44,True
+646,31,1,"EMI, Filter Kits","Kits > EMI, Filter Kits",216,True
+674,31,1,Fiber Optic Kits,Kits > Fiber Optic Kits,83,True
+645,31,1,Hardware Kits,Kits > Hardware Kits,105,True
+675,31,1,Heat Shrink Tubing Kits,Kits > Heat Shrink Tubing Kits,208,True
+655,31,1,Inductor Kits,Kits > Inductor Kits,387,True
+658,31,1,Integrated Circuits (ICs) Kits,Kits > Integrated Circuits (ICs) Kits,69,True
+649,31,1,Kit Accessories,Kits > Kit Accessories,30,True
+647,31,1,LED Kits,Kits > LED Kits,54,True
+657,31,1,Miscellaneous,Kits > Miscellaneous,225,True
+676,31,1,Optics - Light Pipe Kits,Kits > Optics - Light Pipe Kits,8,True
+652,31,1,Potentiometer Kits,Kits > Potentiometer Kits,32,True
+672,31,1,"Prototyping Boards, Fabrication Kits","Kits > Prototyping Boards, Fabrication Kits",61,True
+653,31,1,Resistor Kits,Kits > Resistor Kits,578,True
+677,31,1,RF Shield Kits,Kits > RF Shield Kits,30,True
+662,31,1,Sensor Kits,Kits > Sensor Kits,478,True
+650,31,1,Static Control Kit,Kits > Static Control Kit,371,True
+678,31,1,Switch Kits,Kits > Switch Kits,53,True
+673,31,1,Tape Kits,Kits > Tape Kits,31,True
+664,31,1,Thermistor Kits,Kits > Thermistor Kits,19,True
+654,31,1,Transformer Kits,Kits > Transformer Kits,36,True
+661,31,1,Wire and Cable Tie Kits,Kits > Wire and Cable Tie Kits,64,True
+980,,0,"Labels, Signs, Barriers, Identification","Labels, Signs, Barriers, Identification",45418,False
+983,980,1,"Barriers, Barricades, Floor Markings, Tapes","Labels, Signs, Barriers, Identification > Barriers, Barricades, Floor Markings, Tapes",1141,True
+987,980,1,"Label, Sign, Barrier Accessories","Labels, Signs, Barriers, Identification > Label, Sign, Barrier Accessories",903,True
+981,980,1,"Labels, Stickers, Decals - Blank","Labels, Signs, Barriers, Identification > Labels, Stickers, Decals - Blank",14292,True
+982,980,1,"Labels, Stickers, Decals - Preprinted","Labels, Signs, Barriers, Identification > Labels, Stickers, Decals - Preprinted",10316,True
+577,980,1,"Lockouts, Padlocks","Labels, Signs, Barriers, Identification > Lockouts, Padlocks",2119,True
+985,980,1,"Signs, Nameplates, Posters","Labels, Signs, Barriers, Identification > Signs, Nameplates, Posters",13143,True
+984,980,1,Tags,"Labels, Signs, Barriers, Identification > Tags",3504,True
+35,,0,"Line Protection, Distribution, Backups","Line Protection, Distribution, Backups",13426,False
+833,35,1,DC to AC (Power) Inverters,"Line Protection, Distribution, Backups > DC to AC (Power) Inverters",689,True
+830,35,1,Line Conditioners,"Line Protection, Distribution, Backups > Line Conditioners",70,True
+831,35,1,"Line Protection, Distribution Accessories","Line Protection, Distribution, Backups > Line Protection, Distribution Accessories",5176,True
+832,35,1,"Power Distribution, Surge Protectors","Line Protection, Distribution, Backups > Power Distribution, Surge Protectors",5258,True
+829,35,1,Uninterruptible Power Supply (UPS) Systems,"Line Protection, Distribution, Backups > Uninterruptible Power Supply (UPS) Systems",2233,True
+46,,0,"Magnetics - Transformer, Inductor Components","Magnetics - Transformer, Inductor Components",13908,False
+935,46,1,"Bobbins (Coil Formers), Mounts, Hardware","Magnetics - Transformer, Inductor Components > Bobbins (Coil Formers), Mounts, Hardware",878,True
+936,46,1,Ferrite Cores,"Magnetics - Transformer, Inductor Components > Ferrite Cores",12059,True
+934,46,1,Magnet Wire,"Magnetics - Transformer, Inductor Components > Magnet Wire",971,True
+47,,0,"Maker/DIY, Educational","Maker/DIY, Educational",2931,False
+937,47,1,"Books, Media","Maker/DIY, Educational > Books, Media",296,True
+939,47,1,Educational Kits,"Maker/DIY, Educational > Educational Kits",1500,True
+941,47,1,"Gadgets, Gizmos","Maker/DIY, Educational > Gadgets, Gizmos",135,True
+938,47,1,"Prototyping, Fabrication","Maker/DIY, Educational > Prototyping, Fabrication",127,True
+942,47,1,Robotics Kits,"Maker/DIY, Educational > Robotics Kits",558,True
+940,47,1,Wearables,"Maker/DIY, Educational > Wearables",315,True
+24,,0,"Memory - Modules, Cards","Memory - Modules, Cards",15035,False
+505,24,1,Memory - Modules,"Memory - Modules, Cards > Memory - Modules",2784,True
+500,24,1,"Memory Card, Module Accessories","Memory - Modules, Cards > Memory Card, Module Accessories",88,True
+501,24,1,Memory Cards,"Memory - Modules, Cards > Memory Cards",3291,True
+503,24,1,"Solid State Drives (SSDs), Hard Disk Drives (HDDs)","Memory - Modules, Cards > Solid State Drives (SSDs), Hard Disk Drives (HDDs)",8259,True
+502,24,1,Specialized,"Memory - Modules, Cards > Specialized",56,True
+504,24,1,USB Flash Drives,"Memory - Modules, Cards > USB Flash Drives",557,True
+13,,0,"Motors, Actuators, Solenoids and Drivers","Motors, Actuators, Solenoids and Drivers",163246,False
+177,13,1,Accessories,"Motors, Actuators, Solenoids and Drivers > Accessories",12393,True
+1157,13,1,Electric Actuators/Cylinders,"Motors, Actuators, Solenoids and Drivers > Electric Actuators/Cylinders",118921,True
+181,13,1,"Motor Driver Boards, Modules","Motors, Actuators, Solenoids and Drivers > Motor Driver Boards, Modules",14500,True
+178,13,1,"Motors - AC, DC","Motors, Actuators, Solenoids and Drivers > Motors - AC, DC",9710,True
+180,13,1,Solenoids,"Motors, Actuators, Solenoids and Drivers > Solenoids",431,True
+179,13,1,Stepper Motors,"Motors, Actuators, Solenoids and Drivers > Stepper Motors",2012,True
+2113,13,1,"Variable Frequency Drives (VFDs, VSDs)","Motors, Actuators, Solenoids and Drivers > Variable Frequency Drives (VFDs, VSDs)",5279,True
+44,,0,Networking Solutions,Networking Solutions,28276,False
+925,44,1,Accessories,Networking Solutions > Accessories,3703,True
+928,44,1,"Gateways, Routers","Networking Solutions > Gateways, Routers",7737,True
+929,44,1,Media Converters,Networking Solutions > Media Converters,3763,True
+926,44,1,Miscellaneous,Networking Solutions > Miscellaneous,3504,True
+930,44,1,Serial Device Servers,Networking Solutions > Serial Device Servers,1329,True
+927,44,1,"Switches, Hubs","Networking Solutions > Switches, Hubs",8240,True
+42,,0,Optical Inspection Equipment,Optical Inspection Equipment,4429,False
+915,42,1,"Arms, Mounts, Stands","Optical Inspection Equipment > Arms, Mounts, Stands",138,True
+913,42,1,Cameras,Optical Inspection Equipment > Cameras,60,True
+916,42,1,"Eyepieces, Lenses","Optical Inspection Equipment > Eyepieces, Lenses",136,True
+920,42,1,Illumination Sources,Optical Inspection Equipment > Illumination Sources,100,True
+917,42,1,"Lamps - Magnifying, Task","Optical Inspection Equipment > Lamps - Magnifying, Task",881,True
+918,42,1,"Loupes, Magnifiers","Optical Inspection Equipment > Loupes, Magnifiers",95,True
+1121,42,1,Machine Vision - Accessories,Optical Inspection Equipment > Machine Vision - Accessories,1085,True
+1077,42,1,Machine Vision - Lenses,Optical Inspection Equipment > Machine Vision - Lenses,603,True
+914,42,1,Microscopes,Optical Inspection Equipment > Microscopes,545,True
+912,42,1,Optical Inspection Accessories,Optical Inspection Equipment > Optical Inspection Accessories,616,True
+919,42,1,Video Inspection Systems,Optical Inspection Equipment > Video Inspection Systems,170,True
+41,,0,Optics,Optics,2075,False
+1156,41,1,Beamsplitters,Optics > Beamsplitters,39,True
+1044,41,1,Filters,Optics > Filters,65,True
+2060,41,1,Laser Optics,Optics > Laser Optics,279,False
+1042,2060,2,Beam Expanders,Optics > Laser Optics > Beam Expanders,20,True
+1041,2060,2,F-Theta Lenses,Optics > Laser Optics > F-Theta Lenses,46,True
+1048,2060,2,Faraday Isolators,Optics > Laser Optics > Faraday Isolators,54,True
+1043,2060,2,Focus Lenses,Optics > Laser Optics > Focus Lenses,4,True
+1050,2060,2,Laser Modulators,Optics > Laser Optics > Laser Modulators,93,True
+1120,2060,2,Laser Optics Accessories,Optics > Laser Optics > Laser Optics Accessories,28,True
+1049,2060,2,Pockels Cells,Optics > Laser Optics > Pockels Cells,34,True
+1045,41,1,Lenses,Optics > Lenses,1478,True
+1158,41,1,Mirrors,Optics > Mirrors,132,True
+1046,41,1,Polarizers,Optics > Polarizers,63,True
+1122,41,1,Prisms,Optics > Prisms,19,True
+7,,0,Optoelectronics,Optoelectronics,258665,False
+97,7,1,"Ballasts, Inverters","Optoelectronics > Ballasts, Inverters",282,True
+106,7,1,"Circuit Board Indicators, Arrays, Light Bars, Bar Graphs","Optoelectronics > Circuit Board Indicators, Arrays, Light Bars, Bar Graphs",7203,True
+104,7,1,Cold Cathode Fluorescent (CCFL) & UV Lamps,Optoelectronics > Cold Cathode Fluorescent (CCFL) & UV Lamps,200,True
+1168,7,1,Display Backlights,Optoelectronics > Display Backlights,97,True
+93,7,1,"Display Bezels, Lenses","Optoelectronics > Display Bezels, Lenses",88,True
+114,7,1,"Display, Monitor - LCD Driver/Controller","Optoelectronics > Display, Monitor - LCD Driver/Controller",99,True
+127,7,1,Electroluminescent,Optoelectronics > Electroluminescent,85,True
+119,7,1,Fiber Optic Attenuators,Optoelectronics > Fiber Optic Attenuators,300,True
+117,7,1,Fiber Optic Receivers,Optoelectronics > Fiber Optic Receivers,358,True
+120,7,1,"Fiber Optic Switches, Multiplexers, Demultiplexers","Optoelectronics > Fiber Optic Switches, Multiplexers, Demultiplexers",863,True
+118,7,1,Fiber Optic Transceiver Modules,Optoelectronics > Fiber Optic Transceiver Modules,26552,True
+116,7,1,Fiber Optic Transmitters - Discrete,Optoelectronics > Fiber Optic Transmitters - Discrete,223,True
+115,7,1,Fiber Optic Transmitters - Drive Circuitry Integrated,Optoelectronics > Fiber Optic Transmitters - Drive Circuitry Integrated,104,True
+1119,7,1,HeNe Laser Heads,Optoelectronics > HeNe Laser Heads,25,True
+1009,7,1,HeNe Laser System Accessories,Optoelectronics > HeNe Laser System Accessories,11,True
+1008,7,1,HeNe Laser Systems,Optoelectronics > HeNe Laser Systems,31,True
+100,7,1,"Holders, Spacers, Standoffs","Optoelectronics > Holders, Spacers, Standoffs",3785,True
+101,7,1,"Incandescent, Neon Lamps","Optoelectronics > Incandescent, Neon Lamps",2541,True
+109,7,1,Lamp Replacements,Optoelectronics > Lamp Replacements,1450,True
+966,7,1,"Laser Diode, Module Accessories","Optoelectronics > Laser Diode, Module Accessories",84,True
+1055,7,1,"Laser Diodes, Laser Modules - Laser Delivery, Laser Fibers","Optoelectronics > Laser Diodes, Laser Modules - Laser Delivery, Laser Fibers",1017,True
+95,7,1,"Laser Diodes, Modules","Optoelectronics > Laser Diodes, Modules",1656,True
+99,7,1,"LCD, OLED Character and Numeric","Optoelectronics > LCD, OLED Character and Numeric",2045,True
+107,7,1,"LCD, OLED, Graphic","Optoelectronics > LCD, OLED, Graphic",5246,True
+126,7,1,"LED Addressable, Specialty","Optoelectronics > LED Addressable, Specialty",604,True
+92,7,1,LED Character and Numeric,Optoelectronics > LED Character and Numeric,5356,True
+111,7,1,"LED COBs, Engines, Modules, Strips","Optoelectronics > LED COBs, Engines, Modules, Strips",38758,True
+125,7,1,LED Color Lighting,Optoelectronics > LED Color Lighting,5646,True
+96,7,1,LED Dot Matrix and Cluster,Optoelectronics > LED Dot Matrix and Cluster,609,True
+94,7,1,"LED Emitters - Infrared, UV, Visible","Optoelectronics > LED Emitters - Infrared, UV, Visible",4494,True
+105,7,1,LED Indication - Discrete,Optoelectronics > LED Indication - Discrete,25846,True
+129,7,1,LED Lighting Kits,Optoelectronics > LED Lighting Kits,65,True
+121,7,1,LED Thermal Products,Optoelectronics > LED Thermal Products,331,True
+124,7,1,LED White Lighting,Optoelectronics > LED White Lighting,46275,True
+112,7,1,Lenses,Optoelectronics > Lenses,3689,True
+102,7,1,Light Pipes,Optoelectronics > Light Pipes,35085,True
+1161,7,1,Lighting Fixtures,Optoelectronics > Lighting Fixtures,118,True
+98,7,1,Optoelectronics Accessories,Optoelectronics > Optoelectronics Accessories,6981,True
+1047,7,1,Optomechanical,Optoelectronics > Optomechanical,479,True
+108,7,1,"Panel Indicators, Pilot Lights","Optoelectronics > Panel Indicators, Pilot Lights",28644,True
+122,7,1,Reflectors,Optoelectronics > Reflectors,467,True
+123,7,1,Remote Phosphor Light Source,Optoelectronics > Remote Phosphor Light Source,269,True
+110,7,1,Touch Screen Overlays,Optoelectronics > Touch Screen Overlays,221,True
+103,7,1,Vacuum Fluorescent (VFD),Optoelectronics > Vacuum Fluorescent (VFD),221,True
+128,7,1,Xenon Lighting,Optoelectronics > Xenon Lighting,162,True
+5,,0,"Potentiometers, Variable Resistors","Potentiometers, Variable Resistors",704702,False
+76,5,1,Accessories,"Potentiometers, Variable Resistors > Accessories",160,True
+83,5,1,Adjustable Power Resistor,"Potentiometers, Variable Resistors > Adjustable Power Resistor",1065,True
+82,5,1,Joystick Potentiometers,"Potentiometers, Variable Resistors > Joystick Potentiometers",20,True
+84,5,1,"Rotary Potentiometers, Rheostats","Potentiometers, Variable Resistors > Rotary Potentiometers, Rheostats",670138,True
+79,5,1,Scale Dials,"Potentiometers, Variable Resistors > Scale Dials",111,True
+78,5,1,Slide Potentiometers,"Potentiometers, Variable Resistors > Slide Potentiometers",14001,True
+77,5,1,Thumbwheel Potentiometers,"Potentiometers, Variable Resistors > Thumbwheel Potentiometers",385,True
+80,5,1,Trimmer Potentiometers,"Potentiometers, Variable Resistors > Trimmer Potentiometers",18784,True
+81,5,1,Value Display Potentiometers,"Potentiometers, Variable Resistors > Value Display Potentiometers",38,True
+43,,0,Power Supplies - Board Mount,Power Supplies - Board Mount,108333,False
+923,43,1,AC DC Converters,Power Supplies - Board Mount > AC DC Converters,7538,True
+921,43,1,Board Mount Power Supply Accessories,Power Supplies - Board Mount > Board Mount Power Supply Accessories,903,True
+922,43,1,DC DC Converters,Power Supplies - Board Mount > DC DC Converters,99574,True
+924,43,1,LED Drivers,Power Supplies - Board Mount > LED Drivers,318,True
+8,,0,Power Supplies - External/Internal (Off-Board),Power Supplies - External/Internal (Off-Board),81584,False
+135,8,1,AC AC Wall Power Adapters,Power Supplies - External/Internal (Off-Board) > AC AC Wall Power Adapters,218,True
+955,8,1,AC DC Configurable Power Supplies (Factory Assembled),Power Supplies - External/Internal (Off-Board) > AC DC Configurable Power Supplies (Factory Assembled),362,True
+134,8,1,AC DC Configurable Power Supply Chassis,Power Supplies - External/Internal (Off-Board) > AC DC Configurable Power Supply Chassis,1429,True
+136,8,1,AC DC Configurable Power Supply Modules,Power Supplies - External/Internal (Off-Board) > AC DC Configurable Power Supply Modules,316,True
+133,8,1,AC DC Converters,Power Supplies - External/Internal (Off-Board) > AC DC Converters,44378,True
+130,8,1,"AC DC Desktop, Wall Power Adapters","Power Supplies - External/Internal (Off-Board) > AC DC Desktop, Wall Power Adapters",15329,True
+132,8,1,DC DC Converters,Power Supplies - External/Internal (Off-Board) > DC DC Converters,6143,True
+131,8,1,External/Internal Power Supply Accessories,Power Supplies - External/Internal (Off-Board) > External/Internal Power Supply Accessories,2086,True
+1064,8,1,"Industrial, DIN Rail Power Supplies","Power Supplies - External/Internal (Off-Board) > Industrial, DIN Rail Power Supplies",5103,True
+137,8,1,LED Drivers,Power Supplies - External/Internal (Off-Board) > LED Drivers,5147,True
+138,8,1,Power over Ethernet (PoE),Power Supplies - External/Internal (Off-Board) > Power over Ethernet (PoE),1073,True
+30,,0,"Prototyping, Fabrication Products","Prototyping, Fabrication Products",6566,False
+943,30,1,3D Printers,"Prototyping, Fabrication Products > 3D Printers",79,True
+956,30,1,3D Printing Accessories,"Prototyping, Fabrication Products > 3D Printing Accessories",417,True
+944,30,1,3D Printing Materials,"Prototyping, Fabrication Products > 3D Printing Materials",1260,True
+635,30,1,Accessories,"Prototyping, Fabrication Products > Accessories",355,True
+643,30,1,"Adapter, Breakout Boards","Prototyping, Fabrication Products > Adapter, Breakout Boards",1708,True
+641,30,1,Card Extenders,"Prototyping, Fabrication Products > Card Extenders",60,True
+642,30,1,"Coating, Grease, Repair","Prototyping, Fabrication Products > Coating, Grease, Repair",403,True
+1159,30,1,Custom Configurable PCB's,"Prototyping, Fabrication Products > Custom Configurable PCB's",12,True
+644,30,1,"Drill Bits, End Mills","Prototyping, Fabrication Products > Drill Bits, End Mills",515,True
+639,30,1,Etching and Fabrication Equipment,"Prototyping, Fabrication Products > Etching and Fabrication Equipment",56,True
+640,30,1,Jumper Wire,"Prototyping, Fabrication Products > Jumper Wire",642,True
+972,30,1,"PCB Routers, Milling Machines","Prototyping, Fabrication Products > PCB Routers, Milling Machines",34,True
+636,30,1,Prototype Boards Perforated,"Prototyping, Fabrication Products > Prototype Boards Perforated",724,True
+637,30,1,Prototype Boards Unperforated,"Prototyping, Fabrication Products > Prototype Boards Unperforated",66,True
+638,30,1,Solderless Breadboards,"Prototyping, Fabrication Products > Solderless Breadboards",235,True
+14,,0,Relays,Relays,80880,False
+182,14,1,Accessories,Relays > Accessories,6109,True
+962,14,1,Automotive Relays,Relays > Automotive Relays,2392,True
+969,14,1,Contactors (Electromechanical),Relays > Contactors (Electromechanical),14293,True
+970,14,1,Contactors (Solid State),Relays > Contactors (Solid State),851,True
+963,14,1,High Frequency (RF) Relays,Relays > High Frequency (RF) Relays,1011,True
+190,14,1,I/O Relay Module Racks,Relays > I/O Relay Module Racks,233,True
+186,14,1,I/O Relay Modules,Relays > I/O Relay Modules,831,True
+188,14,1,"Power Relays, Over 2 Amps","Relays > Power Relays, Over 2 Amps",32986,True
+964,14,1,Reed Relays,Relays > Reed Relays,1635,True
+184,14,1,Relay Sockets,Relays > Relay Sockets,1956,True
+189,14,1,"Signal Relays, Up to 2 Amps","Relays > Signal Relays, Up to 2 Amps",9102,True
+183,14,1,Solid State Relays (SSR),Relays > Solid State Relays (SSR),9481,True
+2,,0,Resistors,Resistors,1790647,False
+51,2,1,Accessories,Resistors > Accessories,186,True
+54,2,1,Chassis Mount Resistors,Resistors > Chassis Mount Resistors,31142,True
+52,2,1,Chip Resistor - Surface Mount,Resistors > Chip Resistor - Surface Mount,1187720,True
+56,2,1,Precision Trimmed Resistors,Resistors > Precision Trimmed Resistors,9,True
+50,2,1,"Resistor Networks, Arrays","Resistors > Resistor Networks, Arrays",44698,True
+55,2,1,Specialized Resistors,Resistors > Specialized Resistors,1609,True
+53,2,1,Through Hole Resistors,Resistors > Through Hole Resistors,525283,True
+37,,0,RF and Wireless,RF and Wireless,105883,False
+852,37,1,Attenuators,RF and Wireless > Attenuators,7303,True
+849,37,1,Balun,RF and Wireless > Balun,1178,True
+866,37,1,RF Accessories,RF and Wireless > RF Accessories,5433,True
+860,37,1,RF Amplifiers,RF and Wireless > RF Amplifiers,6434,True
+875,37,1,RF Antennas,RF and Wireless > RF Antennas,19280,True
+1010,37,1,RF Circulators and Isolators,RF and Wireless > RF Circulators and Isolators,3712,True
+878,37,1,RF Demodulators,RF and Wireless > RF Demodulators,225,True
+862,37,1,RF Detectors,RF and Wireless > RF Detectors,509,True
+850,37,1,RF Directional Coupler,RF and Wireless > RF Directional Coupler,3227,True
+876,37,1,RF Front End (LNA + PA),RF and Wireless > RF Front End (LNA + PA),668,True
+863,37,1,RF Misc ICs and Modules,RF and Wireless > RF Misc ICs and Modules,3282,True
+861,37,1,RF Mixers,RF and Wireless > RF Mixers,1525,True
+877,37,1,RF Modulators,RF and Wireless > RF Modulators,202,True
+868,37,1,RF Multiplexers,RF and Wireless > RF Multiplexers,1456,True
+864,37,1,RF Power Controller ICs,RF and Wireless > RF Power Controller ICs,51,True
+851,37,1,RF Power Dividers/Splitters,RF and Wireless > RF Power Dividers/Splitters,1737,True
+873,37,1,"RF Receiver, Transmitter, and Transceiver Finished Units","RF and Wireless > RF Receiver, Transmitter, and Transceiver Finished Units",2372,True
+870,37,1,RF Receivers,RF and Wireless > RF Receivers,1822,True
+867,37,1,RF Shields,RF and Wireless > RF Shields,14478,True
+865,37,1,RF Switches,RF and Wireless > RF Switches,6369,True
+879,37,1,RF Transceiver ICs,RF and Wireless > RF Transceiver ICs,5182,True
+872,37,1,RF Transceiver Modules and Modems,RF and Wireless > RF Transceiver Modules and Modems,7949,True
+871,37,1,RF Transmitters,RF and Wireless > RF Transmitters,600,True
+945,37,1,"RFI and EMI - Contacts, Fingerstock and Gaskets","RF and Wireless > RFI and EMI - Contacts, Fingerstock and Gaskets",3723,True
+869,37,1,RFI and EMI - Shielding and Absorbing Materials,RF and Wireless > RFI and EMI - Shielding and Absorbing Materials,3253,True
+857,37,1,RFID Accessories,RF and Wireless > RFID Accessories,249,True
+855,37,1,RFID Antennas,RF and Wireless > RFID Antennas,521,True
+854,37,1,RFID Reader Modules,RF and Wireless > RFID Reader Modules,607,True
+853,37,1,"RFID Transponders, Tags","RF and Wireless > RFID Transponders, Tags",829,True
+880,37,1,"RFID, RF Access, Monitoring ICs","RF and Wireless > RFID, RF Access, Monitoring ICs",1634,True
+1163,37,1,Subscriber Identification Module (SIM) Cards,RF and Wireless > Subscriber Identification Module (SIM) Cards,73,True
+2116,,0,Safety Products,Safety Products,26955,False
+2117,2116,1,Direct Human Safety,Safety Products > Direct Human Safety,3522,False
+259,2117,2,Personal Protective Equipment (PPE),Safety Products > Direct Human Safety > Personal Protective Equipment (PPE),3522,True
+2091,2116,1,Machine Safety,Safety Products > Machine Safety,19556,False
+1060,2091,2,Interlock Switches,Safety Products > Machine Safety > Interlock Switches,4049,True
+1123,2091,2,Machine Safety - Accessories,Safety Products > Machine Safety > Machine Safety - Accessories,1387,True
+1058,2091,2,Machine Safety - Bumpers and Edges,Safety Products > Machine Safety > Machine Safety - Bumpers and Edges,95,True
+822,2091,2,Machine Safety - Controllers,Safety Products > Machine Safety > Machine Safety - Controllers,429,True
+988,2091,2,Machine Safety - Laser Scanners,Safety Products > Machine Safety > Machine Safety - Laser Scanners,412,True
+959,2091,2,"Machine Safety - Light Curtains, Light Grids","Safety Products > Machine Safety > Machine Safety - Light Curtains, Light Grids",11573,True
+1057,2091,2,Machine Safety - Mats,Safety Products > Machine Safety > Machine Safety - Mats,123,True
+989,2091,2,Safety Relays,Safety Products > Machine Safety > Safety Relays,1488,True
+2118,2116,1,User Controlled Safety,Safety Products > User Controlled Safety,3877,False
+968,2118,2,Cable Pull Switches,Safety Products > User Controlled Safety > Cable Pull Switches,655,True
+1056,2118,2,Emergency Stop (E-Stop) Switches,Safety Products > User Controlled Safety > Emergency Stop (E-Stop) Switches,3222,True
+25,,0,"Sensors, Transducers","Sensors, Transducers",200931,False
+539,25,1,Color Sensors,"Sensors, Transducers > Color Sensors",91,True
+525,25,1,Current Sensors,"Sensors, Transducers > Current Sensors",6422,True
+507,25,1,Encoders,"Sensors, Transducers > Encoders",16074,True
+521,25,1,"Float, Level Sensors","Sensors, Transducers > Float, Level Sensors",3817,True
+520,25,1,Flow Sensors,"Sensors, Transducers > Flow Sensors",847,True
+531,25,1,"Force Sensors, Load Cells","Sensors, Transducers > Force Sensors, Load Cells",1251,True
+530,25,1,Gas Sensors,"Sensors, Transducers > Gas Sensors",1854,True
+529,25,1,"Humidity, Moisture Sensors","Sensors, Transducers > Humidity, Moisture Sensors",1695,True
+538,25,1,IrDA Transceiver Modules,"Sensors, Transducers > IrDA Transceiver Modules",140,True
+522,25,1,LVDT Transducers (Linear Variable Differential Transformer),"Sensors, Transducers > LVDT Transducers (Linear Variable Differential Transformer)",567,True
+2068,25,1,Magnetic Sensors,"Sensors, Transducers > Magnetic Sensors",8864,False
+553,2068,2,"Compass, Magnetic Field (Modules)","Sensors, Transducers > Magnetic Sensors > Compass, Magnetic Field (Modules)",34,True
+554,2068,2,"Linear, Compass (ICs)","Sensors, Transducers > Magnetic Sensors > Linear, Compass (ICs)",1429,True
+552,2068,2,"Position, Proximity, Speed (Modules)","Sensors, Transducers > Magnetic Sensors > Position, Proximity, Speed (Modules)",3218,True
+565,2068,2,Switches (Solid State),"Sensors, Transducers > Magnetic Sensors > Switches (Solid State)",4183,True
+2069,25,1,Magnets,"Sensors, Transducers > Magnets",1716,False
+511,2069,2,Multi Purpose Magnets,"Sensors, Transducers > Magnets > Multi Purpose Magnets",1577,True
+566,2069,2,Sensor Matched Magnets,"Sensors, Transducers > Magnets > Sensor Matched Magnets",139,True
+2070,25,1,Motion Sensors,"Sensors, Transducers > Motion Sensors",5363,False
+515,2070,2,Accelerometers,"Sensors, Transducers > Motion Sensors > Accelerometers",2723,True
+555,2070,2,Gyroscopes,"Sensors, Transducers > Motion Sensors > Gyroscopes",181,True
+567,2070,2,IMUs (Inertial Measurement Units),"Sensors, Transducers > Motion Sensors > IMUs (Inertial Measurement Units)",543,True
+533,2070,2,Inclinometers,"Sensors, Transducers > Motion Sensors > Inclinometers",532,True
+534,2070,2,Optical Motion Sensors,"Sensors, Transducers > Motion Sensors > Optical Motion Sensors",740,True
+523,2070,2,Tilt Switches,"Sensors, Transducers > Motion Sensors > Tilt Switches",91,True
+519,2070,2,Vibration Sensors,"Sensors, Transducers > Motion Sensors > Vibration Sensors",553,True
+551,25,1,Multifunction,"Sensors, Transducers > Multifunction",372,True
+2071,25,1,Optical Sensors,"Sensors, Transducers > Optical Sensors",12961,False
+536,2071,2,"Ambient Light, IR, UV Sensors","Sensors, Transducers > Optical Sensors > Ambient Light, IR, UV Sensors",1051,True
+1003,2071,2,Camera Modules,"Sensors, Transducers > Optical Sensors > Camera Modules",1544,True
+542,2071,2,Distance Measuring,"Sensors, Transducers > Optical Sensors > Distance Measuring",991,True
+532,2071,2,"Image Sensors, Camera","Sensors, Transducers > Optical Sensors > Image Sensors, Camera",1872,True
+540,2071,2,Photo Detectors - CdS Cells,"Sensors, Transducers > Optical Sensors > Photo Detectors - CdS Cells",89,True
+545,2071,2,Photo Detectors - Logic Output,"Sensors, Transducers > Optical Sensors > Photo Detectors - Logic Output",142,True
+541,2071,2,Photo Detectors - Remote Receiver,"Sensors, Transducers > Optical Sensors > Photo Detectors - Remote Receiver",1448,True
+543,2071,2,Photodiodes,"Sensors, Transducers > Optical Sensors > Photodiodes",1425,True
+547,2071,2,Photointerrupters - Slot Type - Logic Output,"Sensors, Transducers > Optical Sensors > Photointerrupters - Slot Type - Logic Output",979,True
+548,2071,2,Photointerrupters - Slot Type - Transistor Output,"Sensors, Transducers > Optical Sensors > Photointerrupters - Slot Type - Transistor Output",1276,True
+1011,2071,2,"Photonics - Counters, Detectors, SPCM (Single Photon Counting Module)","Sensors, Transducers > Optical Sensors > Photonics - Counters, Detectors, SPCM (Single Photon Counting Module)",756,True
+544,2071,2,Phototransistors,"Sensors, Transducers > Optical Sensors > Phototransistors",843,True
+546,2071,2,Reflective - Analog Output,"Sensors, Transducers > Optical Sensors > Reflective - Analog Output",355,True
+556,2071,2,Reflective - Logic Output,"Sensors, Transducers > Optical Sensors > Reflective - Logic Output",190,True
+509,25,1,"Particle, Dust Sensors","Sensors, Transducers > Particle, Dust Sensors",69,True
+2072,25,1,Position Sensors,"Sensors, Transducers > Position Sensors",19760,False
+549,2072,2,"Angle, Linear Position Measuring","Sensors, Transducers > Position Sensors > Angle, Linear Position Measuring",19760,True
+512,25,1,"Pressure Sensors, Transducers","Sensors, Transducers > Pressure Sensors, Transducers",16180,True
+524,25,1,Proximity Sensors,"Sensors, Transducers > Proximity Sensors",5228,True
+563,25,1,Proximity/Occupancy Sensors Finished Units,"Sensors, Transducers > Proximity/Occupancy Sensors Finished Units",642,True
+949,25,1,Sensor Cable Accessories,"Sensors, Transducers > Sensor Cable Accessories",1336,True
+950,25,1,Sensor Cable Assemblies,"Sensors, Transducers > Sensor Cable Assemblies",7526,True
+951,25,1,Sensor Interface Junction Blocks,"Sensors, Transducers > Sensor Interface Junction Blocks",3238,True
+510,25,1,"Sensor, Transducer Accessories","Sensors, Transducers > Sensor, Transducer Accessories",15594,True
+557,25,1,"Sensor, Transducer Amplifiers","Sensors, Transducers > Sensor, Transducer Amplifiers",1550,True
+528,25,1,Shock Sensors,"Sensors, Transducers > Shock Sensors",65,True
+514,25,1,Solar Cells,"Sensors, Transducers > Solar Cells",597,True
+561,25,1,Specialized Sensors,"Sensors, Transducers > Specialized Sensors",2556,True
+559,25,1,Strain Gauges,"Sensors, Transducers > Strain Gauges",1481,True
+2075,25,1,Temperature Sensors,"Sensors, Transducers > Temperature Sensors",60951,False
+518,2075,2,Analog and Digital Output,"Sensors, Transducers > Temperature Sensors > Analog and Digital Output",3856,True
+508,2075,2,NTC Thermistors,"Sensors, Transducers > Temperature Sensors > NTC Thermistors",12423,True
+550,2075,2,PTC Thermistors,"Sensors, Transducers > Temperature Sensors > PTC Thermistors",1011,True
+535,2075,2,RTD (Resistance Temperature Detector),"Sensors, Transducers > Temperature Sensors > RTD (Resistance Temperature Detector)",5598,True
+513,2075,2,"Thermocouples, Temperature Probes","Sensors, Transducers > Temperature Sensors > Thermocouples, Temperature Probes",35891,True
+516,2075,2,Thermostats - Mechanical,"Sensors, Transducers > Temperature Sensors > Thermostats - Mechanical",1372,True
+564,2075,2,Thermostats - Solid State,"Sensors, Transducers > Temperature Sensors > Thermostats - Solid State",800,True
+971,25,1,Touch Sensors,"Sensors, Transducers > Touch Sensors",107,True
+527,25,1,"Ultrasonic Receivers, Transmitters","Sensors, Transducers > Ultrasonic Receivers, Transmitters",2017,True
+18,,0,"Soldering, Desoldering, Rework Products","Soldering, Desoldering, Rework Products",14479,False
+265,18,1,"Desoldering Braid, Wick, Pumps","Soldering, Desoldering, Rework Products > Desoldering Braid, Wick, Pumps",460,True
+266,18,1,"Flux, Flux Remover","Soldering, Desoldering, Rework Products > Flux, Flux Remover",450,True
+269,18,1,"Fume, Smoke Extraction","Soldering, Desoldering, Rework Products > Fume, Smoke Extraction",152,True
+267,18,1,"Holders, Stands","Soldering, Desoldering, Rework Products > Holders, Stands",160,True
+262,18,1,Solder,"Soldering, Desoldering, Rework Products > Solder",1782,True
+263,18,1,"Solder Sponges, Tip Cleaners","Soldering, Desoldering, Rework Products > Solder Sponges, Tip Cleaners",146,True
+272,18,1,"Solder Stencils, Templates","Soldering, Desoldering, Rework Products > Solder Stencils, Templates",647,True
+268,18,1,"Soldering Irons, Tweezers, Handles","Soldering, Desoldering, Rework Products > Soldering Irons, Tweezers, Handles",468,True
+261,18,1,"Soldering, Desoldering, Rework Accessories","Soldering, Desoldering, Rework Products > Soldering, Desoldering, Rework Accessories",4295,True
+264,18,1,"Soldering, Desoldering, Rework Stations","Soldering, Desoldering, Rework Products > Soldering, Desoldering, Rework Stations",484,True
+270,18,1,"Soldering, Desoldering, Rework Tips, Nozzles","Soldering, Desoldering, Rework Products > Soldering, Desoldering, Rework Tips, Nozzles",5435,True
+15,,0,Switches,Switches,288647,False
+192,15,1,Accessories,Switches > Accessories,16942,True
+215,15,1,"Accessories - Boots, Seals","Switches > Accessories - Boots, Seals",726,True
+210,15,1,Accessories - Caps,Switches > Accessories - Caps,5480,True
+2076,15,1,Configurable Switch Components,Switches > Configurable Switch Components,24065,False
+206,2076,2,Configurable Switch Bodies,Switches > Configurable Switch Components > Configurable Switch Bodies,19202,True
+207,2076,2,Configurable Switch Contact Blocks,Switches > Configurable Switch Components > Configurable Switch Contact Blocks,1719,True
+208,2076,2,Configurable Switch Illumination Sources,Switches > Configurable Switch Components > Configurable Switch Illumination Sources,1285,True
+209,2076,2,Configurable Switch Lens,Switches > Configurable Switch Components > Configurable Switch Lens,1859,True
+194,15,1,DIP Switches,Switches > DIP Switches,8605,True
+153,15,1,Disconnect Switch Components,Switches > Disconnect Switch Components,3779,True
+196,15,1,Keylock Switches,Switches > Keylock Switches,17640,True
+202,15,1,Keypad Switches,Switches > Keypad Switches,515,True
+198,15,1,Limit Switches,Switches > Limit Switches,24826,True
+193,15,1,"Magnetic, Reed Switches","Switches > Magnetic, Reed Switches",952,True
+204,15,1,"Navigation Switches, Joystick","Switches > Navigation Switches, Joystick",2203,True
+212,15,1,Programmable Display Switches,Switches > Programmable Display Switches,40,True
+199,15,1,Pushbutton Switches,Switches > Pushbutton Switches,73127,True
+211,15,1,Pushbutton Switches - Hall Effect,Switches > Pushbutton Switches - Hall Effect,90,True
+195,15,1,Rocker Switches,Switches > Rocker Switches,41612,True
+200,15,1,Rotary Switches,Switches > Rotary Switches,7566,True
+203,15,1,Selector Switches,Switches > Selector Switches,19697,True
+213,15,1,Slide Switches,Switches > Slide Switches,3609,True
+197,15,1,Tactile Switches,Switches > Tactile Switches,14198,True
+214,15,1,Thumbwheel Switches,Switches > Thumbwheel Switches,491,True
+201,15,1,Toggle Switches,Switches > Toggle Switches,22484,True
+40,,0,"Tapes, Adhesives, Materials","Tapes, Adhesives, Materials",31662,False
+961,40,1,2D Materials,"Tapes, Adhesives, Materials > 2D Materials",96,True
+907,40,1,Accessories,"Tapes, Adhesives, Materials > Accessories",241,True
+965,40,1,Films,"Tapes, Adhesives, Materials > Films",450,True
+909,40,1,"Glue, Adhesives, Applicators","Tapes, Adhesives, Materials > Glue, Adhesives, Applicators",3985,True
+2107,40,1,Raw Materials - Composites,"Tapes, Adhesives, Materials > Raw Materials - Composites",623,True
+2106,40,1,Raw Materials - Felt,"Tapes, Adhesives, Materials > Raw Materials - Felt",38,True
+2105,40,1,Raw Materials - Foam,"Tapes, Adhesives, Materials > Raw Materials - Foam",1626,True
+2108,40,1,Raw Materials - Graphite,"Tapes, Adhesives, Materials > Raw Materials - Graphite",38,True
+2110,40,1,Raw Materials - Plastics,"Tapes, Adhesives, Materials > Raw Materials - Plastics",5923,True
+2109,40,1,Raw Materials - Rubber,"Tapes, Adhesives, Materials > Raw Materials - Rubber",4151,True
+908,40,1,Tape,"Tapes, Adhesives, Materials > Tape",14373,True
+910,40,1,Tape Dispensers,"Tapes, Adhesives, Materials > Tape Dispensers",118,True
+29,,0,Test and Measurement,Test and Measurement,44298,False
+1017,29,1,Data Acquisition (DAQ),Test and Measurement > Data Acquisition (DAQ),2278,True
+1018,29,1,GPIB & Communications,Test and Measurement > GPIB & Communications,132,True
+613,29,1,Test and Measurement Accessories,Test and Measurement > Test and Measurement Accessories,9553,True
+2078,29,1,Test Equipment,Test and Measurement > Test Equipment,16470,False
+958,2078,2,Combination Sets,Test and Measurement > Test Equipment > Combination Sets,135,True
+634,2078,2,"Electrical Testers, Current Probes","Test and Measurement > Test Equipment > Electrical Testers, Current Probes",1370,True
+632,2078,2,Environmental Testers,Test and Measurement > Test Equipment > Environmental Testers,3661,True
+1019,2078,2,Force/Torque Gauges,Test and Measurement > Test Equipment > Force/Torque Gauges,294,True
+630,2078,2,Function Generators,Test and Measurement > Test Equipment > Function Generators,228,True
+615,2078,2,Multimeters,Test and Measurement > Test Equipment > Multimeters,805,True
+614,2078,2,Oscilloscopes,Test and Measurement > Test Equipment > Oscilloscopes,661,True
+633,2078,2,"Power Supplies (Test, Bench)","Test and Measurement > Test Equipment > Power Supplies (Test, Bench)",2168,True
+631,2078,2,RF Analyzers,Test and Measurement > Test Equipment > RF Analyzers,153,True
+618,2078,2,Specialty Equipment,Test and Measurement > Test Equipment > Specialty Equipment,6042,True
+619,2078,2,Variable Transformers,Test and Measurement > Test Equipment > Variable Transformers,953,True
+2079,29,1,Test Leads,Test and Measurement > Test Leads,13094,False
+623,2079,2,"Alligator, Crocodile, Heavy Duty Clips","Test and Measurement > Test Leads > Alligator, Crocodile, Heavy Duty Clips",758,True
+627,2079,2,"Banana, Meter Interface","Test and Measurement > Test Leads > Banana, Meter Interface",2800,True
+625,2079,2,BNC Interface,Test and Measurement > Test Leads > BNC Interface,342,True
+620,2079,2,"Grabbers, Hooks","Test and Measurement > Test Leads > Grabbers, Hooks",477,True
+624,2079,2,IC Clips,Test and Measurement > Test Leads > IC Clips,165,True
+626,2079,2,"Jumper, Specialty","Test and Measurement > Test Leads > Jumper, Specialty",791,True
+628,2079,2,"Kits, Assortments","Test and Measurement > Test Leads > Kits, Assortments",253,True
+629,2079,2,Oscilloscope Probes,Test and Measurement > Test Leads > Oscilloscope Probes,482,True
+621,2079,2,"Thermocouples, Temperature Probes","Test and Measurement > Test Leads > Thermocouples, Temperature Probes",7026,True
+616,29,1,Test Points,Test and Measurement > Test Points,408,True
+622,29,1,Test Probe Tips,Test and Measurement > Test Probe Tips,609,True
+617,29,1,Thermometers,Test and Measurement > Thermometers,1754,True
+17,,0,Tools,Tools,179712,False
+948,17,1,Abrasives and Surface Conditioning Products,Tools > Abrasives and Surface Conditioning Products,16789,True
+227,17,1,Accessories,Tools > Accessories,16573,True
+245,17,1,Assorted Tool Kits,Tools > Assorted Tool Kits,1427,True
+1023,17,1,Brushes,Tools > Brushes,18,True
+260,17,1,"Chemicals, Cleaners","Tools > Chemicals, Cleaners",685,True
+2111,17,1,"Crimpers, Applicators, Presses","Tools > Crimpers, Applicators, Presses",72341,False
+232,2111,2,"Crimp Heads, Die Sets","Tools > Crimpers, Applicators, Presses > Crimp Heads, Die Sets",5271,True
+250,2111,2,"Crimper, Applicator, Press Accessories","Tools > Crimpers, Applicators, Presses > Crimper, Applicator, Press Accessories",49243,True
+228,2111,2,"Crimpers, Applicators, Presses","Tools > Crimpers, Applicators, Presses > Crimpers, Applicators, Presses",17827,True
+2080,17,1,Dispensing Equipment,Tools > Dispensing Equipment,2701,False
+990,2080,2,"Applicators, Dispensers","Tools > Dispensing Equipment > Applicators, Dispensers",138,True
+991,2080,2,"Bottles, Syringes","Tools > Dispensing Equipment > Bottles, Syringes",689,True
+271,2080,2,"Tips, Nozzles","Tools > Dispensing Equipment > Tips, Nozzles",1874,True
+241,17,1,"Excavators, Hooks, Picks, Probes, Tuning Tools","Tools > Excavators, Hooks, Picks, Probes, Tuning Tools",209,True
+256,17,1,Fiber Optics and Accessories,Tools > Fiber Optics and Accessories,746,True
+237,17,1,Flashlights,Tools > Flashlights,313,True
+246,17,1,Hammers,Tools > Hammers,644,True
+255,17,1,"Heat Guns, Torches, Accessories","Tools > Heat Guns, Torches, Accessories",1193,True
+257,17,1,"Hex, Torx Keys","Tools > Hex, Torx Keys",1481,True
+229,17,1,"Insertion, Extraction","Tools > Insertion, Extraction",3152,True
+242,17,1,"Knives, Scissors, Cutting Tools","Tools > Knives, Scissors, Cutting Tools",1629,True
+1111,17,1,Paint Supplies,Tools > Paint Supplies,98,True
+243,17,1,Pliers,Tools > Pliers,2624,True
+1112,17,1,Pressure Washers,Tools > Pressure Washers,6,True
+244,17,1,"Punchdown, Blades","Tools > Punchdown, Blades",170,True
+248,17,1,Punches,Tools > Punches,375,True
+2081,17,1,"Screwdrivers, Nut Drivers and Sets","Tools > Screwdrivers, Nut Drivers and Sets",12560,False
+236,2081,2,"Screw and Nut Driver Bits, Blades and Handles","Tools > Screwdrivers, Nut Drivers and Sets > Screw and Nut Driver Bits, Blades and Handles",5608,True
+249,2081,2,Screw and Nut Driver Sets,"Tools > Screwdrivers, Nut Drivers and Sets > Screw and Nut Driver Sets",2249,True
+239,2081,2,Screw and Nut Drivers,"Tools > Screwdrivers, Nut Drivers and Sets > Screw and Nut Drivers",4703,True
+2082,17,1,Socket and Socket Handles,Tools > Socket and Socket Handles,9062,False
+247,2082,2,Socket Sets,Tools > Socket and Socket Handles > Socket Sets,967,True
+251,2082,2,"Sockets, Handles","Tools > Socket and Socket Handles > Sockets, Handles",8095,True
+233,17,1,Specialized Tools,Tools > Specialized Tools,20833,True
+238,17,1,"Spiral Wrap, Expandable Sleeving","Tools > Spiral Wrap, Expandable Sleeving",51,True
+252,17,1,Staking Tools,Tools > Staking Tools,58,True
+1113,17,1,"Tool Bags, Boxes and Cabinets","Tools > Tool Bags, Boxes and Cabinets",512,True
+240,17,1,Tweezers,Tools > Tweezers,2585,True
+235,17,1,Vacuums,Tools > Vacuums,133,True
+253,17,1,Vises,Tools > Vises,116,True
+234,17,1,Wire Cutters,Tools > Wire Cutters,2355,True
+230,17,1,Wire Strippers and Accessories,Tools > Wire Strippers and Accessories,1609,True
+254,17,1,Wire Tie Guns and Accessories,Tools > Wire Tie Guns and Accessories,266,True
+231,17,1,Wire Wrap,Tools > Wire Wrap,66,True
+2083,17,1,"Workbenches, Stations and Accessories","Tools > Workbenches, Stations and Accessories",777,False
+1115,2083,2,Workbench and Station Accessories,"Tools > Workbenches, Stations and Accessories > Workbench and Station Accessories",239,True
+1114,2083,2,Workbenches and Stations,"Tools > Workbenches, Stations and Accessories > Workbenches and Stations",538,True
+258,17,1,Wrenches,Tools > Wrenches,5555,True
+11,,0,Transformers,Transformers,18663,False
+161,11,1,Accessories,Transformers > Accessories,200,True
+162,11,1,Audio Transformers,Transformers > Audio Transformers,947,True
+163,11,1,Current Sense Transformers,Transformers > Current Sense Transformers,2952,True
+167,11,1,"Isolation Transformers and Autotransformers, Step Up, Step Down","Transformers > Isolation Transformers and Autotransformers, Step Up, Step Down",703,True
+164,11,1,Power Transformers,Transformers > Power Transformers,6877,True
+166,11,1,Pulse Transformers,Transformers > Pulse Transformers,5065,True
+165,11,1,Specialty Transformers,Transformers > Specialty Transformers,259,True
+168,11,1,"Switching Converter, SMPS Transformers","Transformers > Switching Converter, SMPS Transformers",1660,True
+1,,0,Uncategorized,Uncategorized,174678,False
+48,1,1,Unclassified,Uncategorized > Unclassified,174678,True
