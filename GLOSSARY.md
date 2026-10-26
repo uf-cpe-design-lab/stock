@@ -13,8 +13,12 @@ Stock whose units are interchangeable and tracked by count, which students check
 _Avoid_: Asset, checkout item
 
 **Equipment**:
-A lab-numbered instrument tracked as an individual unit, usually installed at a bench and occasionally checked out, e.g. an oscilloscope or bench power supply.
+Stock tracked as individually numbered Units, usually installed at a bench and occasionally loaned, e.g. oscilloscopes or bench power supplies.
 _Avoid_: Asset, tool, instrument
+
+**Unit**:
+One numbered piece of Equipment, e.g. SCOPE-01, with a home bench and a status (at bench, on Loan, out of service).
+_Avoid_: Asset, serial
 
 ## Catalog
 
@@ -25,6 +29,14 @@ _Avoid_: Part, product, SKU, component
 **Category**:
 A node in the lab's function-based tree (what a thing does), as deep as a branch needs. It's independent of stock kind.
 _Avoid_: Type, class
+
+**Location**:
+A place stock can be, nesting to any depth: room → cabinet → shelf → drawer/bin, plus benches. It has a short, readable ID such as `A-07`.
+_Avoid_: Bin (a bin is one kind of Location), container
+
+**Placement**:
+A Catalog Item held at one Location, with its own on-hand count. An item can have several Placements, and a Location can hold several items.
+_Avoid_: Stock lot, slot
 
 **Tag**:
 A cross-cutting label on a Catalog Item, such as platform or compatibility (`raspberry-pi`, `fits:pi5`), for facts the single Category can't hold.
@@ -56,7 +68,7 @@ A named term with an end date, kept by Lab Staff (e.g. Fall 2026). It sets the d
 _Avoid_: Term
 
 **Restock Report**:
-One person's signal that a Consumable or Loanable is low or out, raised from its QR page (no sign-in needed) or in a Scan Session.
+One person's signal that a Consumable or Loanable is low or out, raised by scanning its label with the in-app scanner (no sign-in needed) or in a Scan Session.
 _Avoid_: Alert, low-stock ticket
 
 **Restock Need**:
